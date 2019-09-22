@@ -1,0 +1,36 @@
+::selection {
+  color: white;
+  background-color: brown;
+}
+
+::-moz-selection {
+  color: white;
+  background-color: brown;
+}
+
+body {
+  font-family: 'Noto Serif KR', 'IBM Plex Sans', serif;
+  background: #f6f6f6;
+}
+
+.container {
+  width: 50%;
+  padding: 0 25%;
+}
+
+a {
+  text-decoration: none;
+  color: brown;
+
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .container {
+    width: 100%;
+    padding: 0 8px 32px 8px;
+  }
+}
