@@ -1,12 +1,12 @@
 ---
 pageTitle: 30 days of running challenge
 date: '2018-02-17'
-tags: ["general"]
+tags: ['general']
 ---
 
 <img src='https://lh3.googleusercontent.com/JjcSdrK--nsetdbz4AoPiZtj_G62RykAxqKqUVSHFhbXH6F_MuGK1y2aIH3jj3nPEzkvpD22k2OEKF1OZXKGARlyOMEbm8IAJ4D4Jybqd0DvQbNyKEnxqcU_yMzJybB-iWtWKYuq4XZpGLbTJpRZLvLY9JkRZHbacFrSpFiKm_T1VpTlHNIyOq2Z-v2HKrOPwZ-C6KvKoZebxoFxWA7YEqKdoZMyY3srEAW3ImH8hNn5Nc0watsqZlqcNVDKPsxjZlNAncGtfbdo-AgHXCCpeTzd0QF9BL1pP3GgtqVnb7GEoYIG4wAbjaoyC8U2qW34ODELDiF_N69rQq6X3fOGtmf6Hmru1NpZ3ckuv0-BTBca084ibZy82bem7A-kxdX4aR3h9ir9YDKmWHdJWtyu1jSSxc1wFKMx7Jbfv1zkMw-KSop3qj6DtfaV7Elg7Jn5OJrIpCsQoLvR-zStQT7_enHis8OBR30AzxLiNz2yeQH3OMLjMTnHViBlci1wZaVA1GI54dRsl_xbG6yT1MkOjyybUelOLfPwqMy6PGDWHjobAaLu-kU3gWxtKFQjfqsNKhumsPvk5GHAlm0dfAzPFSu5BdcvvkByjbwbhRLlt_9lShERUeCBPDmcL6F0gkhJvsxYUYLP6pvHfEoYr0FEX8RQvlc0W_Z_IPixen9d4Pumiye7pVkiuasRf3q2UBjjg_OHDl_TzPHc3t3lBWqhyZ75v2A1d5fTG9dCRLtKjKBzUdziIA=w375-h500-no'/>
 
-*Sat, 17 February 2018*
+_Sat, 17 February 2018_
 
 A month of 2018 had passed. It was the first day of February. January had passed like a bullet train. That is the thing about time, you think you have control over it, that you'll remember moments as they pass but always remember, that life will pass right in front of your eyes and you wouldn't have a clue.
 

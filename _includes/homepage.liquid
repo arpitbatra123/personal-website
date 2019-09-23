@@ -19,7 +19,7 @@
       <h2>Arpit Batra</h2>
       {{ content }}
       <h4>Coding/Tech</h4>
-      {% for post in collections.coding %}
+      {% for post in collections.coding reversed %}
       <div class="post">
         <span class="post-title">
           <a href="{{ post.url }}">{{ post.data.pageTitle }}</a>
@@ -33,7 +33,7 @@
       {% endfor %}
 
       <h4>Poems/Philosophy/Random</h4>
-      {% for post in collections.general %}
+      {% for post in collections.general reversed %}
       <div class="post">
         <span class="post-title">
           <a href="{{ post.url }}">{{ post.data.pageTitle }}</a>
