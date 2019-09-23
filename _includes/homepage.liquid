@@ -25,7 +25,7 @@
           <a href="{{ post.url }}">{{ post.data.pageTitle }}</a>
         </span>
         <span class="post-date">
-          {{ post.date | date: '%b %d, %Y' }}
+          {{ post.date | date: '%b %Y' }}
         </span>
       </div>
       {% else %}
@@ -39,7 +39,7 @@
           <a href="{{ post.url }}">{{ post.data.pageTitle }}</a>
         </span>
         <span class="post-date">
-          {{ post.date | date: '%a, %b %d, %y' }}
+          {{ post.date | date: '%b %Y' }}
         </span>
       </div>
       {% else %}
