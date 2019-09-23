@@ -1,5 +1,5 @@
 ---
-layout: homepage.ejs
+layout: homepage.liquid
 pageTitle: Arpit Batra's website
 ---
 Hi!, I’m Arpit. Welcome to my personal website. I am a currently a Product Engineer at  [@getpostman](https://twitter.com/getpostman), where you’ll find me either ~~yelling~~ cursing at my computer when my code won't work or laying back in my chair and relishing my brief moments of glory when it does.
