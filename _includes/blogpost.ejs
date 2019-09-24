@@ -12,11 +12,26 @@
     />
     <link rel="stylesheet" href="../../styles/common.css" />
     <link rel="stylesheet" href="../../styles/blogpost.css" />
-    <link rel="stylesheet" href="../../styles/prism-a11y-dark.css"/>
+    <link rel="stylesheet" href="../../styles/prism-a11y-dark.css" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-148608259-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'UA-148608259-1');
+    </script>
+    
   </head>
   <body>
     <div class="container post-container">
-        <h1><%- pageTitle %></h1>
+      <h1><%- pageTitle %></h1>
       <%- content %>
       <div class="back-link">
         <a href="/">← Back</a>
