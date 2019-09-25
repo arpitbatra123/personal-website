@@ -33,7 +33,7 @@
     <div class="container">
       <h2>Arpit Batra</h2>
       {{ content }}
-      <h4>Coding/Tech</h4>
+      <h4 class="category">Coding/Tech</h4>
       {% for post in collections.coding reversed %}
       <div class="post">
         <span class="post-title">
@@ -47,7 +47,7 @@
       <span>No posts yet!</span>
       {% endfor %}
 
-      <h4>Poems/Philosophy/Random</h4>
+      <h4 class="category">Poems/Philosophy/Random</h4>
       {% for post in collections.general reversed %}
       <div class="post">
         <span class="post-title">
