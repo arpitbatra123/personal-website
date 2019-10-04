@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-  margin: 32px 10%;
+  margin: 32px 20%;
 }
 
 a {
@@ -29,5 +29,12 @@ a {
   &:hover {
     cursor: pointer;
     text-decoration: underline;
+  }
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .container {
+    margin: 32px 10%;
   }
 }
