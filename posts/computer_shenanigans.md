@@ -1,5 +1,5 @@
 ---
-pageTitle: Computer Shenanigans
+pageTitle: Computer shenanigans
 date: '2017-11-26'
 tags: ['general']
 ---

@@ -19,7 +19,13 @@ body {
 }
 
 .container {
-  margin: 32px 20%;
+  margin: 40px 30%;
+  blockquote {
+    margin: 16px 0;
+    padding: 0 1em;
+    color: brown;
+    border-left: 0.25em solid;
+  }
 }
 
 a {
@@ -31,7 +37,6 @@ a {
     text-decoration: underline;
   }
 }
-
 
 @media (min-width: 320px) and (max-width: 767px) {
   .container {
