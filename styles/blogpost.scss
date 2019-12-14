@@ -11,4 +11,10 @@
   .back-link {
     margin: 16px 0 24px 0;
   }
+  .lyrics {
+    font-style: italic;
+    &-hindi {
+      font-family: 'Noto Sans', 'Noto Serif KR', 'IBM Plex Sans', sans-serif;
+    }
+  }
 }
