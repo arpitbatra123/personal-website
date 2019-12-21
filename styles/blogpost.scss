@@ -1,6 +1,6 @@
 .post-container {
   margin-top: 40px;
-  line-height: 1.75em;
+  line-height: 2em;
   h1 {
     margin-top: 8px;
     margin-bottom: 16px;
@@ -16,5 +16,13 @@
     &-hindi {
       font-family: 'Noto Sans', 'Noto Serif KR', 'IBM Plex Sans', sans-serif;
     }
+  }
+  // Select all text wrapped in `` in markdown - generated a `code` tag without a language class
+  code:not([class*='language-']) {
+    padding: 0.2em;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background: #f8f8f8;
+    border: 1px solid #dddddd;
   }
 }
