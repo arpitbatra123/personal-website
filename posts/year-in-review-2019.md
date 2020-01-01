@@ -1,9 +1,8 @@
 ---
 title: year in review 2019
 date: '2019-12-31'
+tags: 'writing'
 ---
-
-_6th December 2019 9:13 PM_
 
 The year 2019 is almost nearing to the end. I've seen a lot of people do these sort of reviews of their year and so I've decided to do this as well as it serves two purposes - It lets you reflect where you stand on the path towards accomplishing the goals you've set for yourself and also will serve as a memory of sorts so It's something you can look back to.
 
@@ -12,14 +11,11 @@ Now, I don't keep a journal of any sort so I'll be having trouble remembering wh
 ### Things that were good
 
 * Finally started a website/personal blog ( The one you're reading this post on)
-* Got  hired as a Product Engineer at @getpostman
+* Got  hired as a Product Engineer at [@getpostman](https://postman.com)
 * Kick-started my reading habit
-* Moved to a new place that has a window that overlooks a giant tree. Nature === Happy
-  - Update on the above - I was sleeping with the windows open which don't have a mesh and a pigeon flew straight into my room so nature is not always === happy.
+* Moved to a new place that has a window that overlooks a giant tree. `Nature === Happy`
 * Learnt to be grateful of stuff that I have, and not whine about what I don't.
 * Tried pursuing some hobbies - photography and writing. I'm still poor at both of them but I like doing them and hope to constantly improve.
-
-<br>
 
 ### Things that could've been better
 

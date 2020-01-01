@@ -5,7 +5,7 @@ date: '2019-12-15'
 
 [lodash](https://lodash.com/) is a popular javascript library with a set of utilities. One of the utilities that lodash provides is the [get](https://lodash.com/docs/4.17.15#get) function which, as the name suggests is used to get a value from an object. Let us see an example:
 
-Suppose there is an object
+Suppose there is an object:
 
 ```js
 let response = {
@@ -40,7 +40,7 @@ This will make sure that if at any level of the object, the property you are try
 
 However, as you can clearly see in the code, for large objects, the above code segment can be very cumbersome to implement.
 
-Enter lodash.
+> Enter lodash.
 
 lodash's `get` function lets you easily implement safe checks while getting data from objects. If we use lodash for the above example, we can do it like this:
 
@@ -68,7 +68,7 @@ However, there seems to be a solution coming up in javascript itself. There have
 
 Let us see how these language features can help us in replacing lodash with native javascript.
 
-**Optional Chaining:**
+### Optional Chaining
 
 As also shown above, this is how you would safely access the `name` property from the response object.
 
@@ -84,9 +84,9 @@ const name = response?.data?.options?.name;
 
 The above statement behaves similar to how our code with a lot of `&&` safe checks would behave, but looks a lot cleaner!
 
-**Nullish Coalescing:**
+### Nullish Coalescing
 
-So we now have safe checks in property accessors, but what about default values, If I am unable to find the name property, I want to assign the name `Todd` to the `name` variable.
+So we now have safe checks in property accessors, but what about default values? If I am unable to find the name property, I want to assign the name `Todd` to the `name` variable.
 
 Here is how you can do it by using Nullish coalescing:
 

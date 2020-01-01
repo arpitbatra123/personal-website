@@ -13,7 +13,6 @@
       href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400&display=swap"
       rel="stylesheet"
     />
-
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
@@ -30,8 +29,13 @@
   </head>
   <body>
     <div class="container post-container">
-      <h1>{{ title }}</h1>
-      {{ content }}
+      <header>
+        <h1>{{ title }}</h1>
+        <span class="post-date">{{ date | date: "%b %d %Y" }}</span>
+      </header>
+      <div class="content">
+        {{ content }}
+      </div>
       <div class="back-link">
         <a href="/">← Back</a>
       </div>
