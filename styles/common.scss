@@ -14,12 +14,14 @@
 }
 
 body {
-  font-family: 'Noto Serif KR', 'IBM Plex Sans', serif;
-  background: #f6f6f6;
+  font-family: "IBM Plex Sans";
+  color: #394655;
+  background: #FFFEF7;
+  text-transform: lowercase;
 }
 
 .container {
-  margin: 40px 30%;
+  margin: 40px 32%;
   blockquote {
     margin: 16px 0;
     padding: 0 1em;
@@ -40,6 +42,6 @@ a {
 
 @media (min-width: 320px) and (max-width: 767px) {
   .container {
-    margin: 32px 10%;
+    margin: 32px 14%;
   }
 }

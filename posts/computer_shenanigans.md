@@ -1,7 +1,6 @@
 ---
-pageTitle: Computer shenanigans
+title: computer shenanigans
 date: '2017-11-26'
-tags: ['general']
 ---
 
 Sunday, 26 November 2017 10:41 pm

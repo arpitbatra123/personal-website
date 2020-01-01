@@ -1,7 +1,6 @@
 ---
-pageTitle: Lyrics that go beyond words
+title: lyrics that go beyond words
 date: '2019-12-08'
-tags: general
 ---
 
 I listen to a lot of different genres of music but songs that have meaningful lyrics are the ones I connect to the most.  This post is a collection of sorts of the song lyrics I felt a connect with as they remain relevant long after the music fades down. I've also attempted to translate some of the non-english lyrics to english while also trying to maintain their sanctity.
@@ -19,7 +18,6 @@ I listen to a lot of different genres of music but songs that have meaningful ly
 गिला मन शायद, बिस्तर के पास पडा हो  
 
 वो भिजवा दो, मेरा वो सामान लौटा दो  
-
 
 </div>
 
@@ -72,7 +70,7 @@ and laugh at our fate,
 
 and laugh at our fate.
 
-<br/> 
+<br/>
 
 <h2 class='lyrics-hindi'>
 <a href='https://www.youtube.com/watch?v=DR0S-ocAmvo'>अनकही</a>
@@ -143,7 +141,6 @@ I heard this one on the TV show Detectorists and loved this line too much. Thank
 
 <br/>
 
-
 <h2>
 <a href='https://www.youtube.com/watch?v=YpnWnpfJVq4'>Life moves on</a>
 </h2>
@@ -169,7 +166,7 @@ Don't you sometimes wish some things in life stay as they were?
 <div class='lyrics lyrics-hindi'>
 ज़िन्दगी प्यार का गीत है
 
-इसे हर दिल को गाना पड़ेगा   
+इसे हर दिल को गाना पड़ेगा
 
 ज़िन्दगी ग़म का सागर भी है  
 
