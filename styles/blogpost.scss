@@ -1,6 +1,11 @@
 .post-container {
   margin-top: 32px;
 
+  // https://www.xaprb.com/blog/how-to-style-images-with-markdown/
+  img[src*="#worry"] {
+    width: 100%;
+  }
+
   header {
     margin-bottom: 16px;
     .post-date {
