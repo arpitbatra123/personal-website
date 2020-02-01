@@ -3,8 +3,8 @@ const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight'),
 module.exports = eleventyConfig => {
   eleventyConfig.addPlugin(syntaxHighlight);
 
-  eleventyConfig.addPassthroughCopy('favicon.ico');
-  eleventyConfig.addPassthroughCopy('./assets/Cascadia.ttf');
+  eleventyConfig.addPassthroughCopy('assets');
+  // eleventyConfig.addPassthroughCopy('./assets/Cascadia.ttf');
   
   eleventyConfig.setDataDeepMerge(true);
   const options = {
