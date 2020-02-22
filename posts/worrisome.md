@@ -3,7 +3,7 @@ title: worrisome
 date: '2020-02-01'
 ---
 
-[![](../../assets/images/worry-handwritten.jpg#worry)](../../assets/images/worry-handwritten.jpg)
+[![](../../assets/images/worry-handwritten.jpg#markdown)](../../assets/images/worry-handwritten.jpg)
 
 See, that's the thing about people who worry a lot.
 
