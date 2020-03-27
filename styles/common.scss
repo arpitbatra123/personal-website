@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("IBM Plex Sans"), local("IBMPlexSans"),
+    url("../assets/fonts/ibm-plex-sans-v7-latin-regular.woff2") format("woff2"),
+    url("../assets/fonts/ibm-plex-sans-v7-latin-regular.woff") format("woff");
+}
+
 ::selection {
   color: white;
   background-color: brown;
