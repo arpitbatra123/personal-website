@@ -1,26 +1,21 @@
-/*
-Name:   Duotone Forest
-Author: by Simurai, adapted from DuoTone themes for Atom (http://simurai.com/projects/2016/01/01/duotone-themes)
-
-Conversion: Bram de Haan (http://atelierbram.github.io/Base2Tone-prism/output/prism/prism-base2tone-forest-dark.css)
-Generated with Base16 Builder (https://github.com/base16-builder/base16-builder)
-*/
-
-@font-face {
-	font-family: 'Cascadia Code';
-	src: url('../assets/fonts/Cascadia.ttf')  format('truetype'), /* Safari, Android, iOS */
-  }
+/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
 
 code[class*="language-"],
 pre[class*="language-"] {
-	font-family: Cascadia Code, Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
-	font-size: 14px;
-	line-height: 1.375;
-	direction: ltr;
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: JetBrains Mono, Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
 	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
 
 	-moz-tab-size: 4;
 	-o-tab-size: 4;
@@ -30,24 +25,7 @@ pre[class*="language-"] {
 	-moz-hyphens: none;
 	-ms-hyphens: none;
 	hyphens: none;
-	background: #2a2d2a;
-	color: #687d68;
-}
-
-pre > code[class*="language-"] {
-	font-size: 1em;
-}
-
-pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
-code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
-	text-shadow: none;
-	background: #435643;
-}
-
-pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
-code[class*="language-"]::selection, code[class*="language-"] ::selection {
-	text-shadow: none;
-	background: #435643;
+	font-size: 13.6px;
 }
 
 /* Code blocks */
@@ -55,123 +33,91 @@ pre[class*="language-"] {
 	padding: 1em;
 	margin: .5em 0;
 	overflow: auto;
+	border-radius: 0.1em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
 }
 
 /* Inline code */
 :not(pre) > code[class*="language-"] {
 	padding: .1em;
 	border-radius: .3em;
+	white-space: normal;
 }
 
 .token.comment,
 .token.prolog,
 .token.doctype,
 .token.cdata {
-	color: #535f53;
+	color: slategray;
 }
 
 .token.punctuation {
-	color: #535f53;
+	color: #f8f8f2;
 }
 
-.token.namespace {
+.namespace {
 	opacity: .7;
 }
 
-.token.tag,
-.token.operator,
-.token.number {
-	color: #a2b34d;
-}
-
 .token.property,
-.token.function {
-	color: #687d68;
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
 }
 
-.token.tag-id,
-.token.selector,
-.token.atrule-id {
-	color: #f0fff0;
-}
-
-code.language-javascript,
-.token.attr-name {
-	color: #b3d6b3;
-}
-
-code.language-css,
-code.language-scss,
 .token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
 .token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
 .token.entity,
 .token.url,
 .language-css .token.string,
-.language-scss .token.string,
 .style .token.string,
-.token.attr-value,
-.token.keyword,
-.token.control,
-.token.directive,
-.token.unit,
-.token.statement,
-.token.regex,
-.token.atrule {
-	color: #e5fb79;
-}
-
-.token.placeholder,
 .token.variable {
-	color: #e5fb79;
+	color: #f8f8f2;
 }
 
-.token.deleted {
-	text-decoration: line-through;
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
 }
 
-.token.inserted {
-	border-bottom: 1px dotted #f0fff0;
-	text-decoration: none;
+.token.keyword {
+	color: #66d9ef;
 }
 
-.token.italic {
-	font-style: italic;
+.token.regex,
+.token.important {
+	color: #fd971f;
 }
 
 .token.important,
 .token.bold {
 	font-weight: bold;
 }
-
-.token.important {
-	color: #b3d6b3;
+.token.italic {
+	font-style: italic;
 }
 
 .token.entity {
 	cursor: help;
-}
-
-pre > code.highlight {
-	outline: .4em solid #5c705c;
-	outline-offset: .4em;
-}
-
-/* overrides color-values for the Line Numbers plugin
- * http://prismjs.com/plugins/line-numbers/
- */
-.line-numbers .line-numbers-rows {
-	border-right-color: #2c302c;
-}
-
-.line-numbers-rows > span:before {
-	color: #3b423b;
-}
-
-/* overrides color-values for the Line Highlight plugin
-* http://prismjs.com/plugins/line-highlight/
-*/
-.line-highlight {
-	background: rgba(162, 179, 77, 0.2);
-	background: -webkit-linear-gradient(left, rgba(162, 179, 77, 0.2) 70%, rgba(162, 179, 77, 0));
-	background: linear-gradient(to right, rgba(162, 179, 77, 0.2) 70%, rgba(162, 179, 77, 0));
 }

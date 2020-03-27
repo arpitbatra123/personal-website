@@ -6,6 +6,11 @@
     width: 100%;
   }
 
+  @font-face {
+    font-family: "JetBrains Mono";
+    src: url("../assets/fonts/JetBrainsMono.woff2") format("woff2");
+  }
+
   header {
     margin-bottom: 16px;
     .post-date {
