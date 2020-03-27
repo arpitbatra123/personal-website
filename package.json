@@ -1,7 +1,7 @@
 {
   "name": "eleventy-blog",
   "version": "1.0.0",
-  "description": "A Blog Template using eleventy and terminal css.",
+  "description": "my personal website",
   "scripts": {
     "build": "eleventy && npm run sass",
     "serve": "concurrently 'eleventy --serve' 'npm run sass:watch'",
@@ -14,11 +14,11 @@
   "author": "Arpit Batra (arpitbatra123@gmail.com)",
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "^0.9.0",
-    "concurrently": "^5.0.0",
-    "node-sass": "^4.13.0"
+    "@11ty/eleventy": "^0.10.0",
+    "concurrently": "^5.1.0",
+    "node-sass": "^4.13.1"
   },
   "dependencies": {
-    "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.3"
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1"
   }
 }
