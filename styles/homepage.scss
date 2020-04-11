@@ -3,14 +3,15 @@ body {
 }
 
 .category {
-  margin-top: 25px;
-  margin-bottom: 10px;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  font-size: 1.5rem;
 }
 
 .posts {
   list-style: none;
   .post {
-    margin-top: 8px;
+    margin: 8px 0 12px;
     line-height: 14px;
     &-date {
       font-size: 12px;
@@ -21,10 +22,11 @@ body {
 
 .name {
   color: #253445;
-  font-size: large;
-  margin-bottom: 5px;
+  font-size: 2rem;
+  margin-bottom: 8px;
 }
 
 p {
   margin: 8px 0;
+  line-height: 1.5rem;
 }

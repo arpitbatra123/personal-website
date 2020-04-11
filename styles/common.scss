@@ -30,13 +30,9 @@ body {
 }
 
 .container {
-  margin: 40px 32%;
-  blockquote {
-    margin: 16px 0;
-    padding: 0 1em;
-    color: brown;
-    border-left: 0.25em solid;
-  }
+  width: 95vw;
+  margin: 40px auto;
+  max-width: 600px;
 }
 
 a {
@@ -51,6 +47,7 @@ a {
 
 @media (min-width: 320px) and (max-width: 767px) {
   .container {
-    margin: 32px 14%;
+    width: 90vw;
+    margin: 30px auto;
   }
 }

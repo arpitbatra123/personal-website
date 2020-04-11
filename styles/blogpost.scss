@@ -19,6 +19,13 @@
     }
   }
 
+  blockquote {
+    margin: 16px 0;
+    padding: 0 1em;
+    color: brown;
+    border-left: 0.25em solid;
+  }
+
   .content {
     line-height: 22px;
     h2 {
