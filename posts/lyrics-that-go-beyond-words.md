@@ -1,7 +1,13 @@
 ---
 title: lyrics that go beyond words
-date: '2019-12-08'
+date: "2019-12-08"
 ---
+
+> tl:dr 
+
+[Here's](https://open.spotify.com/playlist/53EwdQFx9sh6boC36Ktm1l?si=jJ3rDJFeRtmoooCqiII6kA) a spotify playlist with songs that I think have really meaningful lyrics.
+
+> end tl:dr
 
 I listen to a lot of different genres of music but songs that have meaningful lyrics are the ones I connect to the most. This post is a collection of sorts of the song lyrics I felt a connect with as they remain relevant long after the music fades down. I've also attempted to translate some of the non-english lyrics to english while also trying to maintain their sanctity.
 
@@ -45,7 +51,7 @@ and laugh at our fate.
 कभी कभी अम्बर की
 पत्तें जो शाखों से टूटे
 बेवजह तो नहीं रूठे, हैं सभी
-सदियों पुरानी  ऐसी इक कहानी  रह गयी,
+सदियों पुरानी ऐसी इक कहानी रह गयी,
 रह गयी अनकही
 
 Does the spring ever signify an oncoming autumn?
@@ -58,12 +64,13 @@ An age old story like this, is left unsaid.
 You'll find me In a sea of dreams
 Where no one cares about my words
 
-I heard this song on the TV show Bojack Horseman. Upon listening to this song, i was engulfed in a weird cloud of loneliness.<
+I heard this song on the TV show Bojack Horseman. Upon listening to this song, i was engulfed in a weird cloud of loneliness.
 
 ## [Tunnels](https://www.youtube.com/watch?v=HoJtuk_k3EA)
 
 Birthright's a trouble, my father dug too
 He got where he was going at the age of 62
+
 > When will you get to where you are going?
 
 I heard this one on the TV show Detectorists and loved these lines too much. Thanks to my friend [Danish](https://danishpraka.sh) for recommending this TV show to me as it truly is a gem.

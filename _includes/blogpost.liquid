@@ -26,6 +26,7 @@
   <body>
     <div class="container post-container">
       <header>
+        {% include blogheader %}
         <h1>{{ title }}</h1>
         <span class="post-date">{{ date | date: "%b %d %Y" }}</span>
       </header>

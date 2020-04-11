@@ -26,23 +26,23 @@ console.log(name);
 
 And this will work and output the name `Bojack`. No Worries, Right?
 
-Well, for the most part, it is. Let me explain. Say, for example, this object is a response from an API and because the coding gods are angry on you, the object has a structure different from what you think it will be. The key `options` in the `data` object is now called `user_options` and the code you've written does not account for that. Now If you run the code to get the value of name this is what will happen:
+Well, for the most part, it is. Let me explain. Say, for example, this object is a response from an API and because the coding gods are angry on you, the object has a structure different from what you think it will be. The key `options` in the `data` object is now called `user_options` and the code you've written does not account for that. Now if you run the code to get the value of name this is what will happen:
 
-Since `data.options` is `undefined` and you are basically trying to access the `name` property of `undefined`, you end up with a `TypeError`.
+Since `data.options` is `undefined` and you are trying to access the `name` property of `undefined`, you end up with a `TypeError`.
 
-To make sure you do not end up in such a situation, you have to put up safe checks in your code. For example, to avoid the situation described above, we can do something like this:
+To make sure you do not end up in such a situation, you have to put up safety checks in your code. For example, we can do something like this:
 
 ```js
 const name = (response.data && response.data.options && response.data.options.name) || 'Todd';
 ```
 
-This will make sure that if at any level of the object, the property you are trying to access is `undefined`, you do not try to access properties further down the chain and thus, do not end up with a `TypeError`. Also In the above statement, if the property we are trying to access is undefined, `Todd` gets assigned to the name which kind of acts as a fallback value.
+This will make sure that if at any level of the object, the property you are trying to access is `undefined`, you do not try to access properties further down the chain and thus, do not end up with a `TypeError`. Also, if the property we are trying to access is undefined, `Todd` gets assigned to the name which kind of acts as a fallback value.
 
-However, as you can clearly see in the code, for large objects, the above code segment can be very cumbersome to implement.
+However, as you can see in the code, for large objects, the above code segment can be very cumbersome to write.
 
 > Enter lodash.
 
-lodash's `get` function lets you easily implement safe checks while getting data from objects. If we use lodash for the above example, we can do it like this:
+The lodash `get` function lets you easily implement safe checks while getting data from objects. If we use lodash for the above example, we can do it like this:
 
 ```js
 const name = _.get(response, 'data.options.name');
@@ -86,9 +86,9 @@ The above statement behaves similar to how our code with a lot of `&&` safe chec
 
 ### Nullish Coalescing
 
-So we now have safe checks in property accessors, but what about default values? If I am unable to find the name property, I want to assign the name `Todd` to the `name` variable.
+So we now have safety checks in property accessors, but what about default values? If I am unable to find the name property, I want to assign the name `Todd` to the `name` variable.
 
-Here is how you can do it by using Nullish coalescing:
+Here is how you can do it by using nullish coalescing:
 
 ```js
 const name = response?.data?.options?.name ?? 'Todd';
@@ -96,9 +96,9 @@ const name = response?.data?.options?.name ?? 'Todd';
 
 In the above statement, we combined the use of _optional chaining_ and _nullish coalescing_ to achieve the same result that we were getting by using lodash or making the use of `&&` and `||` operators. If I am unable to access the property `name` from the `response` object, due to optional chaining, the name will have the default property `Todd` thanks to nullish coalescing.
 
-**So Can I go ahead and replace `lodash.get` in my app?**
+**So can I go ahead and replace `lodash.get` in my app?**
 
-Well, not really. As of today, 15th of December, 2019 Both the new JS features we talked about in this article are only at stage 3 of the [tc39](https://tc39.es/process-document/) proposal. This means that it will take a while before it ships in all browsers and we can use it. However, you can also use the following babel polyfills to use these features ahead of time - [1](https://babeljs.io/docs/en/babel-plugin-proposal-optional-chaining) and [2](https://babeljs.io/docs/en/babel-plugin-proposal-nullish-coalescing-operator).
+Sure, but first check out the browser support for the respective features [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator#Browser_compatibility) and [here](https://caniuse.com/#feat=mdn-javascript_operators_optional_chaining) and if you develop for browsers where they aren't supported, you'll have to polyfill them.
 
 Further Reading/References -
 

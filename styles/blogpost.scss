@@ -1,5 +1,5 @@
 .post-container {
-  margin-top: 32px;
+  margin-top: 20px;
 
   // https://www.xaprb.com/blog/how-to-style-images-with-markdown/
   img[src*="#markdown"] {
@@ -16,6 +16,16 @@
     .post-date {
       font-size: 14px;
       color: #a8a8a8;
+    }
+    h1 {
+      margin-top: 1.25rem;
+    }
+
+    .blog-header {
+      border-bottom: 1px solid #edf2f7;
+      display: flex;
+      justify-content: space-between;
+      font-size: 20px;
     }
   }
 

@@ -1,9 +1,9 @@
 ---
-title: hospital is a strange place
+title: a hospital is a strange place
 date: "2019-09-23"
 ---
 
-hospital is a strange place,
+a hospital is a strange place,
 the epitome of human suffering.
 corridors as busy as a bazaar,
 the chaos is maddening.  
@@ -32,4 +32,4 @@ Far away at the emergency registration counter,
 a man counts money with worry on his face.
 We have to buy back life with money,
 
-## hospital is a strange place
+## a hospital is a strange place
