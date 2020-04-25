@@ -13,12 +13,11 @@
   "keywords": [],
   "author": "Arpit Batra (arpitbatra123@gmail.com)",
   "license": "MIT",
-  "devDependencies": {
-    "@11ty/eleventy": "^0.10.0",
-    "concurrently": "^5.1.0",
-    "node-sass": "^4.13.1"
-  },
   "dependencies": {
-    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1"
+    "@11ty/eleventy": "^0.10.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
+    "concurrently": "^5.2.0",
+    "markdown-it-image-lazy-loading": "^1.0.2",
+    "node-sass": "^4.14.0"
   }
 }
