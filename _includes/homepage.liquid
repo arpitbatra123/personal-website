@@ -4,24 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="Description" content="Arpit Batra" />
+    <!-- Primary Meta Tags -->
+    <title>Arpit Batra</title>
+    <meta name="title" content="Arpit Batra" />
+    <meta name="description" content="The personal website of Arpit Batra, a software developer and hobbyist writer." />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://arpitbatra.netlify.app/" />
+    <meta property="og:title" content="Arpit Batra's website" />
+    <meta
+      property="og:description"
+      content="The personal website of Arpit Batra, a software developer and hobbyist writer."
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://arpitbatra.netlify.app/" />
+    <meta property="twitter:title" content="Arpit Batra's website" />
+    <meta
+      property="twitter:description"
+      content="The personal website of Arpit Batra, a software developer and hobbyist writer."
+    />
+    <meta property="twitter:image" content="https://arpitbatra.netlify.app/assets/images/profile.png" />
     <title>{{ title }}</title>
     <link rel="stylesheet" href="./styles/common.css" />
     <link rel="stylesheet" href="./styles/homepage.css" />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      defer
-      src="https://www.googletagmanager.com/gtag/js?id=UA-148608259-1"
-    ></script>
+    <script async defer src="https://www.googletagmanager.com/gtag/js?id=UA-148608259-1"></script>
     <script async defer>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag("js", new Date());
-      gtag("config", "UA-148608259-1");
+      gtag('js', new Date());
+      gtag('config', 'UA-148608259-1');
     </script>
   </head>
 
@@ -37,7 +55,7 @@
             <a href="{{ post.url }}">{{ post.data.title }}</a>
           </span>
           <span class="post-date">
-            {{ post.date | date: "%b %Y" | downcase }}
+            {{ post.date | date: '%b %Y' | downcase }}
           </span>
         </li>
         {% endfor %}
