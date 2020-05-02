@@ -1,5 +1,5 @@
 ---
-title: replacing lodash.get with new js features
+title: replacing lodash.get with nullish coalescing and optional chaining
 date: '2019-12-15'
 ---
 
