@@ -1,21 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
 .post-container {
   margin-top: 20px;
 
   // https://www.xaprb.com/blog/how-to-style-images-with-markdown/
-  img[src*="#markdown"] {
+  img[src*='#markdown'] {
     width: 100%;
   }
-
-  @font-face {
-    font-family: "JetBrains Mono";
-    src: url("../assets/fonts/JetBrainsMono.woff2") format("woff2");
-  }
-
   header {
     margin-bottom: 16px;
     .post-date {
       font-size: 14px;
-      color: #a8a8a8;
+      color: #696969;
     }
     h1 {
       margin-top: 1.25rem;
@@ -58,7 +54,7 @@
       margin-left: 18px;
 
       & > li::before {
-        content: "–"; /* en dash here */
+        content: '–'; /* en dash here */
         position: absolute;
         margin-left: -1.1em;
       }
@@ -70,7 +66,7 @@
   }
 
   // Select all text wrapped in `` in markdown - generated a `code` tag without a language class
-  code:not([class*="language-"]) {
+  code:not([class*='language-']) {
     padding: 0.2em;
     padding-top: 1px;
     padding-bottom: 1px;

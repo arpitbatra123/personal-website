@@ -17,7 +17,7 @@
       property="og:description"
       content="The personal website of Arpit Batra, a software developer and hobbyist writer."
     />
-    <meta property="og:image" content="https://arpitbatra.netlify.app/assets/images/profile.png">
+    <meta property="og:image" content="https://arpitbatra.netlify.app/assets/images/profile.png" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
@@ -31,17 +31,19 @@
     <title>{{ title }}</title>
     <link rel="stylesheet" href="./styles/common.css" />
     <link rel="stylesheet" href="./styles/homepage.css" />
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async defer src="https://www.googletagmanager.com/gtag/js?id=UA-148608259-1"></script>
-    <script async defer>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-      gtag('config', 'UA-148608259-1');
+    <!-- Google Analytics -->
+    <script>
+      window.ga =
+        window.ga ||
+        function () {
+          (ga.q = ga.q || []).push(arguments);
+        };
+      ga.l = +new Date();
+      ga('create', 'UA-148608259-1', 'auto');
+      ga('send', 'pageview');
     </script>
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
+    <!-- End Google Analytics -->
   </head>
 
   <body>
