@@ -21,7 +21,6 @@ module.exports = (eleventyConfig) => {
 
   // Add filter for adding images in markdown
   eleventyConfig.addLiquidFilter('markdownImage', function (imageFileName)  {
-    console.log(imageFileName);
     const fullPath = `../../assets/images/${imageFileName}`;
     return `[![](${fullPath}#markdown)](${fullPath})`;
   });
