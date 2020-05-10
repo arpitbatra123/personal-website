@@ -3,7 +3,7 @@ title: बरसात
 date: '2019-10-02'
 ---
 
-[![](../../assets/images/rainy-road.jpg#markdown)](../../assets/images/rainy-road.jpg)
+{{ 'rainy-road.jpg' | markdownImage }}
 
 फिर बरसात आ गई है,
 फिर गरीब के आँगन का चूल्हा बुझ गया है.
