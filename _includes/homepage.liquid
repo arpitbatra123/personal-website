@@ -5,27 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- Primary Meta Tags -->
-    <title>Arpit Batra</title>
-    <meta name="title" content="Arpit Batra" />
-    <meta name="description" content="The personal website of Arpit Batra, a software developer and hobbyist writer." />
+    <title>{{siteMeta.author.name}}</title>
+    <meta name="title" content="{{siteMeta.author.name}}" />
+    <meta name="description" content="{{siteMeta.description}}" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{siteMeta.url}}/" />
-    <meta property="og:title" content="Arpit Batra" />
+    <meta property="og:title" content="{{siteMeta.author.name}}" />
     <meta
       property="og:description"
-      content="The personal website of Arpit Batra, a software developer and hobbyist writer."
+      content="{{siteMeta.description}}"
     />
     <meta property="og:image" content="{{siteMeta.url}}/assets/images/profile.png" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="{{siteMeta.url}}/" />
-    <meta property="twitter:title" content="Arpit Batra" />
+    <meta property="twitter:title" content="{{siteMeta.author.name}}" />
     <meta
       property="twitter:description"
-      content="The personal website of Arpit Batra, a software developer and hobbyist writer."
+      content="{{siteMeta.description}}"
     />
     <meta property="twitter:image" content="{{siteMeta.url}}/assets/images/profile.png" />
     <title>{{ title }}</title>
@@ -48,7 +48,7 @@
 
   <body>
     <div class="container">
-      <h2 class="name">Arpit Batra</h2>
+      <h2 class="name">{{siteMeta.author.name}}</h2>
       {{ content }}
       <h3 class="category">Posts</h3>
       <ul class="posts">

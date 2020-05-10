@@ -4,7 +4,7 @@
   "description": "my personal website",
   "scripts": {
     "build": "eleventy && npm run sass",
-    "serve": "concurrently 'eleventy --serve' 'npm run sass:watch'",
+    "serve": "npm run clean && concurrently 'eleventy --serve' 'npm run sass:watch'",
     "sass": "node-sass --output  _site/styles/ styles/",
     "sass:watch": "npm run sass && npm run sass -- -w",
     "clean": "rm -rf _site",

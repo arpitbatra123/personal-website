@@ -1,6 +1,5 @@
 ---
 layout: homepage.liquid
-title: Arpit Batra's website
 ---
 how you doin? Welcome to my personal website. I am currently a Product Engineer at [Postman](https://www.getpostman.com/), where you’ll find me either ~~yelling~~ cursing at my computer when my code won't work or laying back in my chair and relishing my brief moments of glory when it does.
 
