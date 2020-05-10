@@ -10,16 +10,16 @@ Now, I don't keep a journal of any sort so I'll be having trouble remembering wh
 
 ### Things that were good
 
-* Finally started a website/personal blog ( The one you're reading this post on)
-* Got  hired as a Product Engineer at [@getpostman](https://postman.com)
-* Kick-started my reading habit
-* Moved to a new place that has a window that overlooks a giant tree. `Nature === Happy`
-* Learnt to be grateful of stuff that I have, and not whine about what I don't.
-* Tried pursuing some hobbies - photography and writing. I'm still poor at both of them but I like doing them and hope to constantly improve.
+- Finally started a website/personal blog (The one you're reading this post on)
+- Got  hired as a Product Engineer at [@getpostman](https://postman.com)
+- Kick-started my reading habit
+- Moved to a new place that has a window that overlooks a giant tree. `Nature === Happy`
+- Learnt to be grateful of stuff that I have, and not whine about what I don't.
+- Tried pursuing some hobbies - photography and writing. I'm still poor at both of them but I like doing them and hope to constantly improve.
 
 ### Things that could've been better
 
-* Wasted a lot of time on mindless scrolling on social media. Will have to cut this down to minimal usage
-* Have a lot of unfinished stuff - blog posts, side projects etc. that I plan to finish or have significant progress on next year.
-* I am not great at making decisions because I don't like the responsibility that comes along with it. This has to improve.
-* I still sometimes lack in taking care of my physical and mental health. I'll have to work towards changing that.
+- Wasted a lot of time on mindless scrolling on social media. Will have to cut this down to minimal usage
+- Have a lot of unfinished stuff - blog posts, side projects etc. that I plan to finish or have significant progress on next year.
+- I am not great at making decisions because I don't like the responsibility that comes along with it. This has to improve.
+- I still sometimes lack in taking care of my physical and mental health. I'll have to work towards changing that.
