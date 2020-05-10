@@ -4,3 +4,5 @@ node_modules
 # eleventy output
 _site
 
+# vscode meta
+.vscode
