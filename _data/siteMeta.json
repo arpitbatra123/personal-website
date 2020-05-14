@@ -2,6 +2,7 @@
   "url": "https://arpitbatra.netlify.app",
   "description": "The personal website of Arpit Batra, a software developer and hobbyist writer.",
   "author": {
-    "name": "Arpit Batra"
+    "name": "Arpit Batra",
+    "email": "arpitbatra123@gmail.com"
   }
 }
