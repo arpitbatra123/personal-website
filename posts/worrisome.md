@@ -1,6 +1,8 @@
 ---
 title: worrisome
 date: '2020-02-01'
+tags:
+    - 'prose'
 ---
 
 {{ 'worry-handwritten.jpg' | markdownImage }}

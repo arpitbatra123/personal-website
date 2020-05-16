@@ -1,6 +1,8 @@
 ---
 title: a hospital is a strange place
 date: "2019-09-23"
+tags:
+    - 'poetry'
 ---
 
 a hospital is a strange place,

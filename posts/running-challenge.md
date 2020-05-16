@@ -1,6 +1,8 @@
 ---
 title: thirty days of running challenge
 date: '2018-02-17'
+tags:
+    - 'journal'
 ---
 
 {{ 'running-challenge.gif' | markdownImage }}

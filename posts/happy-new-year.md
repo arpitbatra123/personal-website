@@ -1,6 +1,9 @@
 ---
 title: happy new year
 date: '2019-12-31'
+tags:
+    - 'prose'
+    - 'journal'
 ---
 
 *31st December 2019 11:36 PM*

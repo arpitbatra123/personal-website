@@ -1,7 +1,8 @@
 ---
 title: i made a browser extension called mnml new tab
 date: '2020-04-25'
-tags: ['coding']
+tags:
+    - 'coding'
 ---
 
 If you've seen my blog post titled [inspo](/posts/inspo), you already know how impressed I am by [torvim's](https://torvim.github.io/) [inspo](https://u.teknik.io/E32bU.zip) collection.

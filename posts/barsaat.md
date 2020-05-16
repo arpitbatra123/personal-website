@@ -1,6 +1,8 @@
 ---
 title: बरसात
 date: '2019-10-02'
+tags:
+    - 'poetry'
 ---
 
 {{ 'rainy-road.jpg' | markdownImage }}
