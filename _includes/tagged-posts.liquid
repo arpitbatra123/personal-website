@@ -26,8 +26,9 @@
     <meta property="twitter:description" content="{{ siteMeta.description }}" />
     <meta property="twitter:image" content="{{ siteMeta.url }}/assets/images/profile.png" />
     <title>{{ title }}</title>
-    <link rel="stylesheet" href="./styles/common.css" />
-    <link rel="stylesheet" href="./styles/homepage.css" />
+    <link rel="stylesheet" href="../../styles/common.css" />
+    <!-- <link rel="stylesheet" href="../../styles/homepage.css" /> -->
+    <link rel="stylesheet" href="../../styles/tagged-posts.css" />
     <!-- Google Analytics -->
     <script>
       window.ga =
@@ -45,28 +46,9 @@
 
   <body>
     <div class="container">
-      <h1 class="name">{{ siteMeta.author.name }}</h1>
+      {% include blogheader %}
+      <h1 class="posts-heading">{{ renderData.title }}</h1>
       {{ content }}
-      <h2 class="posts-heading">Posts</h2>
-      <ul class="posts">
-        {% for post in collections.posts reversed %}
-        <li class="post">
-          <span class="post-title">
-            <a href="{{ post.url }}">{{ post.data.title }}</a>
-          </span>
-          <span class="post-date">
-            {{ post.date | date: '%b %Y' | downcase }}
-          </span>
-          <div class="post-tags">
-            {% for tag in post.data.tags %} {% if tag != "posts" %}
-            <span class="post-tag">
-              <a href="/tags/{{ tag }}">#{{ tag }}</a>
-            </span>
-            {% endif %} {% endfor %}
-          </div>
-        </li>
-        {% endfor %}
-      </ul>
     </div>
   </body>
 </html>
