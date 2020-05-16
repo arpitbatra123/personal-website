@@ -45,9 +45,9 @@
 
   <body>
     <div class="container">
-      <h2 class="name">{{ siteMeta.author.name }}</h2>
+      <h1 class="name">{{ siteMeta.author.name }}</h1>
       {{ content }}
-      <h3 class="category">Posts</h3>
+      <h2 class="posts-heading">Posts</h2>
       <ul class="posts">
         {% for post in collections.posts reversed %}
         <li class="post">
@@ -57,6 +57,11 @@
           <span class="post-date">
             {{ post.date | date: '%b %Y' | downcase }}
           </span>
+          <div class="post-tags">
+            {% for tag in post.data.tags %} {% if tag != "posts" %}
+            <span class="post-tag"> #{{ tag }} </span>
+            {% endif %} {% endfor %}
+          </div>
         </li>
         {% endfor %}
       </ul>
