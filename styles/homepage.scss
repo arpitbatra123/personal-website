@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
 body {
   text-transform: lowercase;
+  font-family: 'Space Mono', var(--monospace-font-stack);
 }
 
-.category {
+.posts-heading {
   margin-top: 16px;
   margin-bottom: 8px;
   font-size: 1.5rem;
@@ -11,12 +14,19 @@ body {
 .posts {
   list-style: none;
   .post {
-    margin: 8px 0 12px;
-    line-height: 14px;
+    margin: 8px 0;
     &-date {
       font-size: 12px;
       color: #696969;
     }
+    
+    &-title {
+      display: inline-block;
+      font-weight: inherit;
+    }
+  }
+  .post-tags {
+    font-size: 14px;
   }
 }
 
@@ -28,5 +38,6 @@ body {
 
 p {
   margin: 8px 0;
-  line-height: 1.5rem;
+  line-height: 1.4rem;
+  font-size: 1rem;
 }

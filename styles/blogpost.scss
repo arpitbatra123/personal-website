@@ -34,20 +34,19 @@
   }
 
   .content {
-    line-height: 22px;
     h2 {
       margin: 24px 0 8px;
       font-weight: normal;
-      line-height: 36px;
     }
 
     h3 {
       margin: 12px 0;
-      line-height: 28px;
     }
 
     p {
       margin-bottom: 10px;
+      line-height: 1.5rem;
+      font-size: 1rem;
     }
 
     ul {

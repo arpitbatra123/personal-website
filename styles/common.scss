@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap');
 
+:root {
+  // https://systemfontstack.com/
+  --monospace-font-stack: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+  --base-font-stack: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro,
+    serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
 ::selection {
   color: white;
   background-color: brown;
@@ -11,9 +18,7 @@
 }
 
 body {
-  // https://systemfontstack.com/
-  font-family: 'IBM Plex Sans', Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times,
-    Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: 'IBM Plex Sans', var(--base-font-stack);
   color: #394655;
   background: #fffef7;
 }
