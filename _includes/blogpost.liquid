@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>{{ title }}</title>
 
+    <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ siteMeta.author.name }}" />
+
     <!-- Primary Meta Tags -->
     <meta name="title" content="{{ title }}" />
     <meta name="description" content="{{ title }}" />
@@ -14,15 +16,15 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ siteMeta.url }}/posts/mnml-new-tab/" />
     <meta property="og:title" content="{{ title }}" />
-    <meta property="og:description" content="{{ title }}, A post by {{siteMeta.author.name}}" />
-    <meta property="og:image" content="{{siteMeta.url}}/assets/images/profile.png" />
+    <meta property="og:description" content="{{ title }}, A post by {{ siteMeta.author.name }}" />
+    <meta property="og:image" content="{{ siteMeta.url }}/assets/images/profile.png" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="{{ siteMeta.url }}/posts/mnml-new-tab/" />
     <meta property="twitter:title" content="{{ title }}" />
-    <meta property="twitter:description" content="{{ title }}, A post by {{siteMeta.author.name}}" />
-    <meta property="twitter:image" content="{{siteMeta.url}}/assets/images/profile.png" />
+    <meta property="twitter:description" content="{{ title }}, A post by {{ siteMeta.author.name }}" />
+    <meta property="twitter:image" content="{{ siteMeta.url }}/assets/images/profile.png" />
 
     <link rel="stylesheet" href="../../styles/common.css" />
     <link rel="stylesheet" href="../../styles/blogpost.css" />
