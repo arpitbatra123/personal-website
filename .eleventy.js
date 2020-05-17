@@ -1,7 +1,8 @@
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight'),
   markdownLazyLoadImages = require('markdown-it-image-lazy-loading'),
   markdownIt = require('markdown-it'),
-  pluginRss = require('@11ty/eleventy-plugin-rss');
+  pluginRss = require('@11ty/eleventy-plugin-rss'),
+  markdownAttrs = require('markdown-it-attrs');
 
 module.exports = (eleventyConfig) => {
   eleventyConfig.addPlugin(syntaxHighlight);
@@ -17,7 +18,9 @@ module.exports = (eleventyConfig) => {
       linkify: false
     },
     markdownEngine = markdownIt(options);
+    
   markdownEngine.use(markdownLazyLoadImages);
+  markdownEngine.use(markdownAttrs);
 
   eleventyConfig.setLibrary('md', markdownEngine);
 

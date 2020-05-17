@@ -1,6 +1,8 @@
 ---
 title: मंज़िल
 date: '2018-12-27'
+meta:
+    hindiTitle: true
 tags:
     - 'poetry'
 ---
