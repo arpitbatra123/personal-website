@@ -2,7 +2,7 @@
 title: i made a browser extension called mnml new tab
 date: '2020-04-25'
 tags:
-    - 'coding'
+  - 'coding'
 ---
 
 If you've seen my blog post titled [inspo](/posts/inspo), you already know how impressed I am by [torvim's](https://torvim.github.io/) [inspo](https://u.teknik.io/E32bU.zip) collection.
@@ -13,7 +13,7 @@ One day, while randomly browsing images in this collection, I came across the fo
 
 The screenshot showed a new tab page with a pretty minimal layout.
 
-I had been using other extensions to show bookmarks  in the new tab page so that they could be easily accessible, so upon seeing the screenshot from the inspo collection, I decided to create a similar browser extension. There might already be an extension with the exact design (how else would that screenshot exist then?), but creating an extension that I will use daily seemed fun so I went through with it.
+I had been using other extensions to show bookmarks in the new tab page so that they could be easily accessible, so upon seeing the screenshot from the inspo collection, I decided to create a similar browser extension. There might already be an extension with the exact design (how else would that screenshot exist then?), but creating an extension that I will use daily seemed fun so I went through with it.
 
 ## Technical Details
 

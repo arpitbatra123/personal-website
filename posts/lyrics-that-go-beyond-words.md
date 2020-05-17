@@ -3,8 +3,8 @@ title: lyrics that go beyond words
 date: '2019-12-08'
 updatedAt: '2020-05-10'
 meta:
-    hindiBody: true
-    hindiTitle: false
+  hindiBody: true
+  hindiTitle: false
 tags:
   - 'collections'
 ---

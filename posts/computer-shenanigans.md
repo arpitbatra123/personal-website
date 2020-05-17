@@ -2,9 +2,9 @@
 title: computer shenanigans
 date: '2017-11-26'
 tags:
-    - 'prose'
-    - 'coding'
-    - 'journal'
+  - 'prose'
+  - 'coding'
+  - 'journal'
 ---
 
 I'm trying to write something again after a long time. Exams are going on and the last few exams weren't that great. I will barely manage to pass. But That is nothing new. I can't seem to drag my ass to study. So Unless the Sun starts rising in the west or something, "Hope I pass" will be my words after every exam.

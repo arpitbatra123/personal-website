@@ -1,14 +1,14 @@
 ---
 title: a hospital is a strange place
-date: "2019-09-23"
+date: '2019-09-23'
 tags:
-    - 'poetry'
+  - 'poetry'
 ---
 
 a hospital is a strange place,
 the epitome of human suffering.
 corridors as busy as a bazaar,
-the chaos is maddening.  
+the chaos is maddening.
 
 A metal detector continuously beeps at a distance,
 but people's minds are elsewhere, the noise not distracting.

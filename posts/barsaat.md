@@ -2,9 +2,9 @@
 title: बरसात
 date: '2019-10-02'
 meta:
-    hindiTitle: true
+  hindiTitle: true
 tags:
-    - 'poetry'
+  - 'poetry'
 ---
 
 {{ 'rainy-road.jpg' | markdownImage }}
@@ -16,7 +16,7 @@ tags:
 फिर तुम्हारी यादो का दिया जल गया है.
 
 गरीब सोचता होगा,
-ना जाने बरसात कब जाएगी 
+ना जाने बरसात कब जाएगी
 
 मैं सोचता हूँ,
-ना जाने तुम कब आओगी 
+ना जाने तुम कब आओगी

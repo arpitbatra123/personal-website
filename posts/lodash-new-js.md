@@ -2,7 +2,7 @@
 title: replacing lodash.get with nullish coalescing and optional chaining
 date: '2019-12-15'
 tags:
-    - 'coding'
+  - 'coding'
 ---
 
 [lodash](https://lodash.com/) is a popular javascript library with a set of utilities. One of the utilities that lodash provides is the [get](https://lodash.com/docs/4.17.15#get) function which, as the name suggests is used to get a value from an object. Let us see an example:

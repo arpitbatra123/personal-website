@@ -18,7 +18,7 @@ module.exports = (eleventyConfig) => {
       linkify: false
     },
     markdownEngine = markdownIt(options);
-    
+
   markdownEngine.use(markdownLazyLoadImages);
   markdownEngine.use(markdownAttrs);
 
