@@ -17,9 +17,9 @@ permalink: /tags/{{ tag }}/
       <span class="post-title">
         <a href="{{ post.url | url }}">{{ post.data.title }}</a>
       </span>
-      <span class="post-date">
+      <div class="post-date">
         {{ post.date | date: '%b %Y' | downcase }}
-      </span>
+      </div>
     </li>
   {% endfor %}
 </ol>

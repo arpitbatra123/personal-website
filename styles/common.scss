@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
 
 :root {
   // https://systemfontstack.com/
@@ -18,7 +18,7 @@
 }
 
 body {
-  font-family: 'IBM Plex Sans', var(--base-font-stack);
+  font-family: 'Space Mono', var(--monospace-font-stack);
   color: #394655;
   background: #fffef7;
 }
