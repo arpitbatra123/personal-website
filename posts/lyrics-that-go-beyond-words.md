@@ -115,7 +115,7 @@ still, we have to cross it with a smile on our faces.
 इतनी खफ़ा नही
 {.hindi-font}
 
-## [Najeek](https://www.youtube.com/watch?v=AMRGmAh2NTk) {.hindi-font}
+## [Najeek](https://www.youtube.com/watch?v=AMRGmAh2NTk)
 
 तिम्रो आत्मा थाम्ने कसम कसरी दिऊ म जब
 आफ्नै आत्मालाई चिनेको छुइन?
