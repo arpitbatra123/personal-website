@@ -4,5 +4,19 @@
   "author": {
     "name": "Arpit Batra",
     "email": "arpitbatra123@gmail.com"
-  }
+  },
+  "navbarData": [
+    {
+      "text": "github",
+      "url": "https://github.com/arpitbatra123"
+    },
+    {
+      "text": "inspo",
+      "url": "/posts/inspo/"
+    },
+    {
+      "text": "rss",
+      "url": "https://arpitbatra.netlify.app/feed.xml"
+    }
+  ]
 }

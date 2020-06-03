@@ -4,6 +4,39 @@ body {
   font-family: 'Space Mono', var(--monospace-font-stack);
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px dotted saddlebrown;
+  padding: 20px;
+  border-radius: 3px;
+  width: 95vw;
+  margin: 40px auto;
+  max-width: 600px;
+  flex-wrap: wrap;
+  a::after {
+    content: '/';
+  }
+
+  @media (max-width: 425px) {
+    border: unset;
+    padding: unset;
+    justify-content: center;
+  }
+}
+
+// container styles are also in common.scss but these are the ones we only want on the homepage
+.container {
+  border: 1px dotted dodgerblue;
+  padding: 20px;
+  border-radius: 3px;
+  @media (max-width: 425px) {
+    border: unset;
+    padding: unset;
+  }
+}
+
 .posts-heading {
   margin-top: 16px;
   margin-bottom: 8px;
