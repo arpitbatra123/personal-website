@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ruda&display=swap');
 
 :root {
   // https://systemfontstack.com/
   --monospace-font-stack: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
-  --base-font-stack: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro,
-    serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  --serif-font-stack: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times,
+    Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  --sans-serif-font-stack: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu,
+    roboto, noto, segoe ui, arial, sans-serif;
 }
 
 ::selection {
@@ -19,7 +21,7 @@
 }
 
 body {
-  font-family: 'Space Mono', var(--monospace-font-stack);
+  font-family: 'Ruda', var(--sans-serif-font-stack);
   color: #394655;
   background: #fffef7;
 }

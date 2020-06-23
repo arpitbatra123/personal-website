@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cambay&display=swap');
 body {
   text-transform: lowercase;
-  font-family: 'Space Mono', var(--monospace-font-stack);
+  font-family: 'Ruda', var(--sans-serif-font-stack);
 }
 
 header {
@@ -19,10 +19,19 @@ header {
     content: '/';
   }
 
+  .name {
+    color: #253445;
+    font-size: 2rem;
+  }
+
   @media (max-width: 425px) {
     border: unset;
     padding: unset;
     justify-content: center;
+    .name {
+      margin-bottom: 8px;
+      margin-right: 8px;
+    }
   }
 }
 
@@ -69,12 +78,6 @@ header {
       }
     }
   }
-}
-
-.name {
-  color: #253445;
-  font-size: 2rem;
-  margin-bottom: 8px;
 }
 
 p {
