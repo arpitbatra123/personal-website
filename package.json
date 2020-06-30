@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "my personal website",
   "scripts": {
-    "build": "eleventy && npm run sass",
+    "build": "eleventy && npm run sass && npx prettier --write _site",
     "serve": "npm run clean && concurrently 'eleventy --serve' 'npm run sass:watch'",
     "sass": "node-sass --output  _site/styles/ styles/",
     "sass:watch": "npm run sass && npm run sass -- -w",
@@ -19,7 +19,7 @@
     "@11ty/eleventy-plugin-rss": "^1.0.7",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
     "concurrently": "^5.2.0",
-    "markdown-it-attrs": "^3.0.2",
+    "markdown-it-attrs": "^3.0.3",
     "markdown-it-image-lazy-loading": "^1.0.2",
     "node-sass": "^4.14.1"
   }
