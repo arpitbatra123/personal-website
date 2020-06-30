@@ -32,7 +32,7 @@ body {
 
 .container {
   width: 95vw;
-  margin: 40px auto;
+  margin: 0 auto;
   max-width: 600px;
 }
 
@@ -49,6 +49,6 @@ a {
 @media (min-width: 320px) and (max-width: 767px) {
   .container {
     width: 90vw;
-    margin: 30px auto;
+    margin: 0 auto;
   }
 }

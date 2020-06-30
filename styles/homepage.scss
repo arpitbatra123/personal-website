@@ -22,6 +22,10 @@ header {
     color: #253445;
     font-size: 2.5rem;
   }
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    margin: 30px auto;
+  }
 }
 
 // container styles are also in common.scss but use this for the ones we only want on the homepage
