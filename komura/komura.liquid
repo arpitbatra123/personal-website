@@ -10,7 +10,10 @@
   <body>
     <main class="komura">
       <div class="komura-title">
-        <a href="https://www.wochikochi.jp/english/relayessay/2013/06/haruki-kafka.php" class="komura-about-link" target="_blank"
+        <a
+          href="https://www.wochikochi.jp/english/relayessay/2013/06/haruki-kafka.php"
+          class="komura-about-link"
+          target="_blank"
           ><svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M18.5914 13.9538V19.9538C18.5914 20.4842 18.3807 20.9929 18.0056 21.368C17.6306 21.7431 17.1219 21.9538 16.5914 21.9538H5.59143C5.061 21.9538 4.55229 21.7431 4.17722 21.368C3.80214 20.9929 3.59143 20.4842 3.59143 19.9538V8.95377C3.59143 8.42333 3.80214 7.91462 4.17722 7.53955C4.55229 7.16448 5.061 6.95377 5.59143 6.95377H11.5914"
@@ -38,17 +41,20 @@
       </div>
       <p class="komura-description">
         Hey There! You have arrived in my personal digital library. Here you will find the books I’ve read and reviewed
-        on <a href='https://goodreads.com/arpitbatra123'>Goodreads.</a>
+        on <a href="https://goodreads.com/arpitbatra123">Goodreads.</a>
       </p>
       <div class="books">
         {% for review in reviews.data %}
         <div class="book">
-          <img
-            src="/assets/images/book-covers/{{ review.book.isbn }}.jpg"
-            class="book-cover"
-            width="224px"
-            height="349px"
-          />
+          <a href="{{ review.book.link }}" target="_blank">
+            <img
+              src="/assets/images/book-covers/{{ review.book.isbn }}.jpg"
+              class="book-cover"
+              width="224px"
+              height="349px"
+              loading="lazy"
+            />
+          </a>
           <div class="book-meta">
             <div class="book-title">
               {{ review.book.title }}
@@ -57,8 +63,7 @@
               {{ review.review.body }}
             </p>
           </div>
-          <!-- @todo: add review date -->
-          <!-- <div class="review-date">26 June 2019</div> -->
+          <div class="review-date">{{ review.review.date_read | date: '%b %Y' }}</div>
         </div>
         {% endfor %}
       </div>
