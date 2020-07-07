@@ -18,11 +18,8 @@
     "@11ty/eleventy": "^0.11.0",
     "@11ty/eleventy-plugin-rss": "^1.0.7",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
-    "colorthief": "^2.3.0",
-    "colour-extractor": "^0.2.1",
     "concurrently": "^5.2.0",
-    "dominant-color": "0.0.1",
-    "got": "^11.3.0",
+    "got": "^11.4.0",
     "markdown-it-attrs": "^3.0.3",
     "markdown-it-image-lazy-loading": "^1.0.2",
     "node-sass": "^4.14.1"
