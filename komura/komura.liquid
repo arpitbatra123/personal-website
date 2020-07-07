@@ -34,6 +34,7 @@
     <main class="komura">
       <div class="komura-title">
         <a
+          aria-label="About Komura"
           href="https://www.wochikochi.jp/english/relayessay/2013/06/haruki-kafka.php"
           class="komura-about-link"
           target="_blank"
@@ -69,13 +70,14 @@
       <div class="books">
         {% for review in reviews.data %}
         <div class="book">
-          <a href="{{ review.book.link }}" target="_blank">
+          <a href="{{ review.book.link }}" target="_blank" rel="noopener">
             <img
               src="/assets/images/book-covers/{{ review.book.isbn }}.jpg"
               class="book-cover"
               width="224px"
               height="349px"
               loading="lazy"
+              alt="cover image of book {{ review.book.title }}"
             />
           </a>
           <div class="book-meta">
