@@ -1,5 +1,5 @@
 {
-  "url": "https://arpitbatra.netlify.app",
+  "url": "https://arpit.tk",
   "description": "The personal website of Arpit Batra, a software developer and hobbyist writer.",
   "author": {
     "name": "Arpit Batra",
@@ -16,7 +16,7 @@
     },
     {
       "text": "rss",
-      "url": "https://arpitbatra.netlify.app/feed.xml"
+      "url": "https://arpit.tk/feed.xml"
     }
   ]
 }
