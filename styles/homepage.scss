@@ -10,7 +10,7 @@ header {
   align-items: center;
   width: 95vw;
   margin: 40px auto;
-  max-width: 600px;
+  max-width: 60ch;
   a {
     font-size: 20px;
     &::after {
@@ -30,6 +30,7 @@ header {
 
 // container styles are also in common.scss but use this for the ones we only want on the homepage
 .container {
+  max-width: 60ch;
   p {
     margin: 8px 0;
     line-height: 1.4rem;

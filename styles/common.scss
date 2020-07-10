@@ -33,7 +33,7 @@ body {
 .container {
   width: 95vw;
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 70ch;
 }
 
 a {
@@ -51,4 +51,18 @@ a {
     width: 90vw;
     margin: 0 auto;
   }
+}
+
+pre {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
