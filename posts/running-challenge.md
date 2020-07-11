@@ -5,7 +5,7 @@ tags:
   - 'journal'
 ---
 
-{{ 'running-challenge.gif' | markdownImage }}
+{{ 'running-challenge.jpeg' | markdownImage }}
 
 A month of 2018 had passed. It was the first day of February. January had passed like a bullet train. That is the thing about time, you think you have control over it, that you'll remember moments as they pass but always remember, that life will pass right in front of your eyes and you wouldn't have a clue.
 
@@ -59,3 +59,5 @@ Mic drop....
 Update: 14 March 2018 After writing this very motivational blog, I started slacking. I had exams after that and I couldn't keep up with this goal. However, now that the exams are over, I plan to start this challenge again. I know that the completion of this challenge is long overdue and therefore I plan to complete it as soon as possible so I can then set new goals and start new challenges.
 
 (Although nobody ever reads my blogs but still) Wish me Luck!
+
+{{ 'running-challenge.gif' | markdownImage }}
