@@ -30,10 +30,9 @@
     <link rel="stylesheet" href="../../styles/blogpost.css" />
     <link rel="stylesheet" href="../../styles/prism-theme.css" />
 
-
     {% if meta.hindiBody or meta.hindiTitle %}
       <!-- Load hindi font only if post contains hindi text or title -->
-    <link href="https://fonts.googleapis.com/css2?family=Cambay&display=swap" rel="stylesheet"> 
+      <link href="https://fonts.googleapis.com/css2?family=Cambay&display=swap" rel="stylesheet" />
     {% endif %}
 
     <!-- Google Analytics -->
@@ -53,11 +52,11 @@
   <body>
     <div class="container post-container">
       <header>
-        {% include blogheader %}
+        {% include blogheader %} 
         {% if meta.hindiTitle %}
-        <h1 class="hindi-font">{{ title }}</h1>
+          <h1 class="hindi-font">{{ title }}</h1>
         {% else %}
-        <h1>{{ title }}</h1>
+          <h1>{{ title }}</h1>
         {% endif %}
         <span class="post-date">{{ date | date: '%b %d %Y' }}</span>
       </header>
