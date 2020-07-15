@@ -1,8 +1,9 @@
 # node modules
 node_modules
 
-# eleventy output
+# eleventy related
 _site
+.cache
 
 # vscode meta
 .vscode

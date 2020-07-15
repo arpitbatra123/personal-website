@@ -12,6 +12,7 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy('favicon.ico');
 
   eleventyConfig.setDataDeepMerge(true);
+  
   const options = {
       html: true,
       breaks: true,
