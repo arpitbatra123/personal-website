@@ -45,7 +45,9 @@
 
   <body>
     <div class="container">
-      {% include blogheader %}
+      <header>
+        {% include top-bar %} 
+      </header>
       <h1 class="posts-heading">{{ renderData.title }}</h1>
       {{ content }}
     </div>

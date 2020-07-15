@@ -11,19 +11,29 @@
 
 ::selection {
   color: white;
-  background-color: brown;
+  background-color: #673ab7;
 }
 
 * {
   margin: 0;
   padding: 0;
+}
+
+html {
   box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 body {
   font-family: 'Nunito Sans', var(--sans-serif-font-stack);
   color: #394655;
-  background: #fffef7;
+  background: #f7fafc;
+  font-weight: 400;
 }
 
 .hindi-font {
@@ -31,14 +41,13 @@ body {
 }
 
 .container {
-  width: 95vw;
-  margin: 0 auto;
-  max-width: 70ch;
+  margin: 0 auto 32px;
+  max-width: 60ch;
 }
 
 a {
   text-decoration: none;
-  color: brown;
+  color: #673ab7;
 
   &:hover {
     cursor: pointer;
@@ -49,20 +58,5 @@ a {
 @media (min-width: 320px) and (max-width: 767px) {
   .container {
     width: 90vw;
-    margin: 0 auto;
   }
-}
-
-pre {
-  margin-top: 16px;
-  margin-bottom: 16px;
-}
-
-html {
-  box-sizing: border-box;
-}
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
 }

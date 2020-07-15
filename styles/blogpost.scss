@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 .post-container {
   margin-top: 20px;
+  max-width: 70ch;
 
   // https://www.xaprb.com/blog/how-to-style-images-with-markdown/
   img[src*='#markdown'] {
@@ -19,20 +20,12 @@
       line-height: 32px;
       font-weight: 400;
     }
-
-    .blog-header {
-      border-bottom: 1px solid #edf2f7;
-      display: flex;
-      justify-content: space-between;
-      font-size: 20px;
-      text-transform: lowercase;
-    }
   }
 
   blockquote {
     margin: 16px 0;
     padding: 0 1em;
-    color: brown;
+    color: #673ab7;
     border-left: 0.25em solid;
   }
 

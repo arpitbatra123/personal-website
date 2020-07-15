@@ -1,16 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cambay&display=swap');
-body {
-  text-transform: lowercase;
-}
 
 header {
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
   align-items: center;
-  width: 95vw;
   margin: 40px auto;
-  max-width: 60ch;
   a {
     font-size: 20px;
     &::after {
@@ -30,7 +24,6 @@ header {
 
 // container styles are also in common.scss but use this for the ones we only want on the homepage
 .container {
-  max-width: 60ch;
   p {
     margin: 8px 0;
     line-height: 1.4rem;

@@ -1,5 +1,5 @@
 ---
-title: What is the 'box-sizing' property in css and why should it have a value of 'border-box'
+title: What is the ‘box-sizing’ property in css and why should it have a value of ‘border-box’?
 date: '2020-07-10'
 tags:
   - 'coding'
@@ -114,7 +114,7 @@ Lo and behold! The box has the padding, and also has the values for the widths a
 
 How did this work? Well, by default, all elements have the value `content-box` for `box-sizing`. This means any padding and margins you add are added to the width and height of elements. `border-box` prevents that behavior.
 
-You want `border-box` to be the default value for all elements to eradicate the frustration you were dealing with a few minutes ago! This can be done easily by using universal selectors in CSS. 
+You want `border-box` to be the default value for all elements to eradicate the frustration you were dealing with a few minutes ago! This can be done easily by using universal selectors in CSS.
 
 Here is how this css-tricks [article](https://css-tricks.com/box-sizing/) recommends we do it at a global level:
 
