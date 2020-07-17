@@ -45,7 +45,7 @@ You've done well so far. Pat yourself on the back. That box does look lonely tho
 
 We add a span with some text to our HTML.
 
-```html/1/
+```html
 <div class="box">
   <span class="text">Hey There!</span>
 </div>
@@ -69,7 +69,7 @@ Let's also add some styles to the text we just added.
 
 Cool! That sure does look fine but the text is stuck on the corner. Let's add some padding to the box.
 
-```css/4/
+```css
 .box {
   background: lightgoldenrodyellow;
   height: 200px;
@@ -92,7 +92,7 @@ Is there a way to make CSS respect the widths and height you specify?
 
 Yes, there is. Let us add the `box-sizing` property with a value of `border-box` to the styles of the box element.
 
-```css/5/
+```css
 .box {
   background: lightgoldenrodyellow;
   height: 200px;
