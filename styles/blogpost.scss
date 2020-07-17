@@ -63,10 +63,8 @@
 
   // Select all text wrapped in `` in markdown - generated a `code` tag without a language class
   code:not([class*='language-']) {
-    background: #282936;
-    color: navajowhite;
-    padding: 2px 5px;
-    border-radius: 2px;
-    white-space: normal;
+    background-color: #f2f2f2;
+    color: #1c402a;
+    padding: 2px;
   }
 }

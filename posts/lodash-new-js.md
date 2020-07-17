@@ -1,5 +1,5 @@
 ---
-title: replacing lodash.get with nullish coalescing and optional chaining
+title: Replacing lodash.get with nullish coalescing and optional chaining
 date: '2019-12-15'
 tags:
   - 'coding'
@@ -70,7 +70,7 @@ However, there seems to be a solution coming up in javascript itself. There have
 
 Let us see how these language features can help us in replacing lodash with native javascript.
 
-### Optional Chaining
+## Optional Chaining
 
 As also shown above, this is how you would safely access the `name` property from the response object.
 
@@ -86,7 +86,7 @@ const name = response?.data?.options?.name;
 
 The above statement behaves similar to how our code with a lot of `&&` safe checks would behave, but looks a lot cleaner!
 
-### Nullish Coalescing
+## Nullish Coalescing
 
 So we now have safety checks in property accessors, but what about default values? If I am unable to find the name property, I want to assign the name `Todd` to the `name` variable.
 

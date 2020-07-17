@@ -6,9 +6,6 @@ $snippets-font-family: 'Source Code Pro', Menlo, Consolas, Monaco, Liberation Mo
 
 code[class*='language-'],
 pre[class*='language-'] {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
   color: #e6ebf1;
   background: #32325d;
   font-family: $snippets-font-family;
