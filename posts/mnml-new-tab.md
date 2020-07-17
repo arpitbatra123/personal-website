@@ -1,5 +1,5 @@
 ---
-title: i made a browser extension called mnml new tab
+title: I Made a Browser Extension Called - mnml new tab
 date: '2020-04-25'
 tags:
   - 'coding'

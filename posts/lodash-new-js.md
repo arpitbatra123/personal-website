@@ -1,5 +1,5 @@
 ---
-title: Replacing lodash.get with nullish coalescing and optional chaining
+title: Replacing lodash.get with Nullish Coalescing and Optional Chaining
 date: '2019-12-15'
 tags:
   - 'coding'

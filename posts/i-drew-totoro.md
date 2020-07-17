@@ -1,5 +1,5 @@
 ---
-title: i drew totoro
+title: I Drew Totoro
 date: '2020-04-11'
 tags:
   - 'drawing'

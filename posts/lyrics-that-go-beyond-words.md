@@ -1,5 +1,5 @@
 ---
-title: lyrics that go beyond words
+title: Lyrics That Go Beyond Words
 date: '2019-12-08'
 updatedAt: '2020-05-10'
 meta:

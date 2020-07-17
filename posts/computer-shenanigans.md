@@ -1,5 +1,5 @@
 ---
-title: computer shenanigans
+title: Computer Shenanigans
 date: '2017-11-26'
 tags:
   - 'prose'

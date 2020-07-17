@@ -1,5 +1,5 @@
 ---
-title: feeling grateful
+title: Feeling Grateful
 date: '2019-05-26'
 tags:
   - 'prose'

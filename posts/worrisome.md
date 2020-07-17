@@ -1,5 +1,5 @@
 ---
-title: worrisome
+title: Worrisome
 date: '2020-02-01'
 tags:
   - 'prose'

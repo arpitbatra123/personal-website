@@ -1,5 +1,5 @@
 ---
-title: a piece of your heart
+title: A Piece Of Your Heart
 date: '2018-12-27'
 tags:
   - 'prose'

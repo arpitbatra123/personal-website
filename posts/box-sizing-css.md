@@ -1,5 +1,5 @@
 ---
-title: What is the ‘box-sizing’ property in css and why should it have a value of ‘border-box’?
+title: What Is ‘box-sizing’ in CSS and Why should It be 'border-box'?
 date: '2020-07-10'
 tags:
   - 'coding'

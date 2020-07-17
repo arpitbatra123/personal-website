@@ -1,5 +1,5 @@
 ---
-title: thirty days of running challenge
+title: 30 days of running
 date: '2018-02-17'
 tags:
   - 'journal'
