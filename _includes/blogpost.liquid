@@ -31,32 +31,21 @@
     <link rel="stylesheet" href="../../styles/prism-theme.css" />
 
     {% if meta.hindiBody or meta.hindiTitle %}
-      <!-- Load hindi font only if post contains hindi text or title -->
-      <link href="https://fonts.googleapis.com/css2?family=Cambay&display=swap" rel="stylesheet" />
+    <!-- Load hindi font only if post contains hindi text or title -->
+    <link href="https://fonts.googleapis.com/css2?family=Cambay&display=swap" rel="stylesheet" />
     {% endif %}
 
-    <!-- Google Analytics -->
-    <script>
-      window.ga =
-        window.ga ||
-        function () {
-          (ga.q = ga.q || []).push(arguments);
-        };
-      ga.l = +new Date();
-      ga('create', 'UA-148608259-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-    <script async src="https://www.google-analytics.com/analytics.js"></script>
-    <!-- End Google Analytics -->
+    <!-- Analytics -->
+    <script data-goatcounter="https://arpitbatra123.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+    <!-- End Analytics -->
   </head>
   <body>
     <div class="container post-container">
       <header class="blog-header">
-        {% include top-bar %} 
-        {% if meta.hindiTitle %}
-          <h1 class="hindi-font">{{ title }}</h1>
+        {% include top-bar %} {% if meta.hindiTitle %}
+        <h1 class="hindi-font">{{ title }}</h1>
         {% else %}
-          <h1>{{ title }}</h1>
+        <h1>{{ title }}</h1>
         {% endif %}
         <span class="post-date">{{ date | date: '%b %d %Y' }}</span>
       </header>
