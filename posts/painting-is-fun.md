@@ -13,7 +13,7 @@ So, on a Sunday evening, I went on youtube and searched for "Beginner Painting" 
 
 This is how the painting looked in the video:
 
-![How the painting looked in the video](http://i3.ytimg.com/vi/T5tGiseJAGY/maxresdefault.jpg#markdown)
+![How the painting looked in the video](https://i3.ytimg.com/vi/T5tGiseJAGY/maxresdefault.jpg#markdown)
 
 And this is my first attempt at the painting:
 
