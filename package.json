@@ -5,7 +5,7 @@
   "scripts": {
     "build": "eleventy && npm run sass",
     "serve": "npm run clean && concurrently 'eleventy --serve' 'npm run sass:watch'",
-    "sass": "node-sass --output-style compressed --output _site/styles/ styles/",
+    "sass": "sass styles/:_site/styles --style=compressed --update",
     "sass:watch": "npm run sass && npm run sass -- -w",
     "clean": "rm -rf _site",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -22,6 +22,6 @@
     "concurrently": "^5.2.0",
     "markdown-it-attrs": "^3.0.3",
     "markdown-it-image-lazy-loading": "^1.0.2",
-    "node-sass": "^4.14.1"
+    "sass": "^1.26.10"
   }
 }
