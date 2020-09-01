@@ -3,20 +3,44 @@
   "description": "The personal website of Arpit Batra, a software developer and hobbyist writer.",
   "author": {
     "name": "Arpit Batra",
-    "email": "arpitbatra123@gmail.com"
+    "email": "arpitbatra123@gmail.com",
+    "twitter": "https://twitter.com/arpitbatra123"
   },
+  "feedUrl": "/feed.xml",
   "navbarData": [
     {
-      "text": "github",
-      "url": "https://github.com/arpitbatra123"
+      "text": "about",
+      "url": "/about"
     },
     {
-      "text": "inspo",
-      "url": "https://inspo-arpit.vercel.app/"
+      "text": "blog",
+      "url": "/blog"
     },
     {
-      "text": "rss",
-      "url": "https://arpit.tk/feed.xml"
+      "text": "reading",
+      "url": "/komura"
+    },
+    {
+      "text": "projects",
+      "url": "/project"
+    }
+  ],
+  "navbarDataBlog": [
+    {
+      "text": "about",
+      "url": "/about"
+    },
+    {
+      "text": "home",
+      "url": "/"
+    },
+    {
+      "text": "reading",
+      "url": "/komura"
+    },
+    {
+      "text": "projects",
+      "url": "/project"
     }
   ]
 }

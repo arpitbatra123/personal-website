@@ -1,28 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cambay&display=swap');
 
 @import 'global';
 
-.blogpost-container {
+.blog-container {
   min-height: 90vh;
   display: flex;
   flex-direction: column;
-  margin-top: 2rem;
 }
 
 header {
-  .name {
+  .title {
     font-size: 64px;
     font-weight: bold;
-  }
-
-  .post-title {
-    font-size: 40px;
-    // margin-top: 1em;
-    width: 40ch;
-  }
-  .post-date {
-    font-weight: 300;
   }
 }
 
@@ -34,13 +24,26 @@ header {
 
   main {
     flex: 1;
-    .post-content {
+    .posts {
       width: 60ch;
-      // font-family: Inter;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 18px;
-      line-height: 24px;
+      .post {
+        &-date {
+          font-size: 12px;
+          line-height: 20px;
+          color: rgba(0, 0, 0, 0.65);
+        }
+
+        &-title {
+          font-size: 32px;
+          line-height: 39px;
+          a {
+            text-decoration: none;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
     }
   }
 
@@ -48,7 +51,7 @@ header {
     display: flex;
     flex-direction: column;
 
-    // // Stick to top
+    // Stick to top
     // position: fixed;
     // right: 4rem;
 
@@ -68,16 +71,10 @@ header {
 }
 
 footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin: 2rem 0;
-
-  .back-link {
-    font-size: 1.5rem;
-    text-decoration: none;
-  }
+  align-self: flex-end;
+  // Stick to bottom
+  position: fixed;
+  bottom: 2rem;
 
   .links {
     display: flex;
@@ -153,28 +150,4 @@ footer {
       }
     }
   }
-}
-
-blockquote {
-  margin: 16px 0;
-  padding: 0 1em;
-  color: $link-hover-color;
-  border-left: 0.25em solid;
-}
-
-// ul {
-//   list-style: none;
-// }
-
-// li::before {
-//   content: '–'; /* en dash here */
-//   position: absolute;
-//   margin-left: -1.1em;
-// }
-
-// Select all text wrapped in `` in markdown - generated a `code` tag without a language class
-code:not([class*='language-']) {
-  background-color: #f2f2f2;
-  color: #1c402a;
-  padding: 2px;
 }

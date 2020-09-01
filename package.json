@@ -5,8 +5,8 @@
   "scripts": {
     "build": "eleventy && npm run sass",
     "serve": "npm run clean && concurrently 'eleventy --serve' 'npm run sass:watch'",
-    "sass": "sass styles/:_site/styles --style=compressed --update",
-    "sass:watch": "npm run sass && npm run sass -- -w",
+    "sass": "sass styles:_site/styles --style=compressed --update",
+    "sass:watch": "npm run sass && npm run sass -- --watch",
     "clean": "rm -rf _site",
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "npx prettier --write ."
