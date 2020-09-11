@@ -12,7 +12,6 @@ sections:
 - type: document
   path: _data/siteMeta.json
   label: Site Meta
-  match: "**/*"
 upload_dir: assets
 public_path: "/assets"
 front_matter_path: ''
