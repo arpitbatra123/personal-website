@@ -1,10 +1,10 @@
 ---
-title: Worrisome
-date: '2020-02-01'
+title: worrisome
+date: 2020-02-01
 tags:
-  - 'prose'
----
+- prose
 
+---
 {{ 'worry-handwritten.jpg' | markdownImage }}
 
 See, that's the thing about people who worry a lot.
