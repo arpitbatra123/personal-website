@@ -1,12 +1,12 @@
 ---
-title: What Is ‘box-sizing’ in CSS and Why should It be 'border-box'?
-date: '2020-07-10'
+title: what is ‘box-sizing’ in CSS and why should it be 'border-box'?
+date: 2020-07-10T00:00:00+05:30
 tags:
-  - 'coding'
-  - 'css'
-  - 'frontend'
----
+- coding
+- css
+- frontend
 
+---
 > TLDR: By default, css adds padding and margin values to the width and height of your elements. A 200px wide box with 10px padding will have an effective width of 220px. Use `box-sizing: border-box;` to prevent this.
 
 Imagine yourself embarking on a journey towards learning front-end web development. You are pretty excited as you should be! One day, you will turn beautiful designs into code.
