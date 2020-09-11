@@ -11,6 +11,7 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy('assets');
   eleventyConfig.addPassthroughCopy('favicon.ico');
   eleventyConfig.addPassthroughCopy('_redirects');
+   eleventyConfig.addPassthroughCopy('admin');
 
   eleventyConfig.setDataDeepMerge(true);
 
