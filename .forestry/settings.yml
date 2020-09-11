@@ -6,12 +6,13 @@ webhook_url:
 sections:
 - type: directory
   path: posts
-  label: All Posts
+  label: Posts
   create: all
   match: "**/*"
 - type: document
-  path: posts
-  label: Posts
+  path: _data/siteMeta.json
+  label: Site Meta
+  match: "**/*"
 upload_dir: assets
 public_path: "/assets"
 front_matter_path: ''
