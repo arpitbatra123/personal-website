@@ -1,5 +1,5 @@
 ---
-title: year in review 2019
+title: Year in review 2019
 date: 2019-12-31
 tags:
 - prose
