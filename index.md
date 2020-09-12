@@ -2,7 +2,7 @@
 layout: homepage.liquid
 ---
 
-> WARNING! This site is still under construction
+> WARNING! This site is perpetually under construction
 
 I'm @arpitbatra123, a hobbyist writer, and an  engineer at [postman](https://www.postman.com/).
 

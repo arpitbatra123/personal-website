@@ -3,26 +3,33 @@
 
 @import 'global';
 
+ul {
+  list-style-type: circle;
+}
+
 .blogpost-container {
   min-height: 90vh;
   display: flex;
   flex-direction: column;
-  margin-top: 2rem;
 }
 
 header {
+  font-weight: bold;
   .name {
     font-size: 64px;
-    font-weight: bold;
+    line-height: 78px;
   }
-
   .post-title {
     font-size: 40px;
-    // margin-top: 1em;
-    width: 40ch;
+    line-height: 49px;
+    margin-top: 34px;
   }
   .post-date {
     font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 8px;
+    display: inline-block;
   }
 }
 
@@ -31,27 +38,15 @@ header {
   flex-direction: row;
   flex: 1;
   margin-top: 32px;
+  justify-content: space-between;
 
   main {
-    flex: 1;
-    .post-content {
-      width: 60ch;
-      // font-family: Inter;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 18px;
-      line-height: 24px;
-    }
+    max-width: 700px;
   }
 
   nav {
     display: flex;
     flex-direction: column;
-
-    // // Stick to top
-    // position: fixed;
-    // right: 4rem;
-
     .nav-item {
       font-weight: bold;
       font-size: 30px;
@@ -72,12 +67,7 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 2rem 0;
-
-  .back-link {
-    font-size: 1.5rem;
-    text-decoration: none;
-  }
+  margin: 32px 0;
 
   .links {
     display: flex;
@@ -102,79 +92,21 @@ footer {
       }
     }
   }
+
+  .back-link {
+    font-size: 24px;
+    text-decoration: none;
+  }
 }
 
 @media (max-width: $breakpoint-md) {
-  header {
-    text-align: center;
-    .title {
-      font-size: 48px;
-    }
-  }
   .content-container {
-    flex-direction: column-reverse;
-    align-items: center;
-    margin-top: 0;
-    main {
-      margin-top: 2em;
-      .posts {
-        width: 40ch;
-      }
-    }
     nav {
-      position: unset;
-      width: 80vw;
-      flex-direction: row;
-      justify-content: space-between;
-      .nav-item {
-        margin-top: 0;
-        font-size: 28px;
-      }
-
-      a:last-child {
-        display: none;
-      }
+      display: none;
     }
   }
-
   footer {
-    position: static;
-    align-self: center;
-    margin-top: 2em;
-    margin-bottom: 1.5em;
+    flex-direction: column;
+    height: 100px;
   }
-}
-
-@media (max-width: $breakpoint-md) {
-  .content-container {
-    main {
-      .posts {
-        width: 30ch;
-      }
-    }
-  }
-}
-
-blockquote {
-  margin: 16px 0;
-  padding: 0 1em;
-  color: $link-hover-color;
-  border-left: 0.25em solid;
-}
-
-// ul {
-//   list-style: none;
-// }
-
-// li::before {
-//   content: '–'; /* en dash here */
-//   position: absolute;
-//   margin-left: -1.1em;
-// }
-
-// Select all text wrapped in `` in markdown - generated a `code` tag without a language class
-code:not([class*='language-']) {
-  background-color: #f2f2f2;
-  color: #1c402a;
-  padding: 2px;
 }

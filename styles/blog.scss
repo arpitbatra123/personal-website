@@ -50,11 +50,6 @@ header {
   nav {
     display: flex;
     flex-direction: column;
-
-    // Stick to top
-    // position: fixed;
-    // right: 4rem;
-
     .nav-item {
       font-weight: bold;
       font-size: 30px;
@@ -115,7 +110,7 @@ footer {
     main {
       margin-top: 2em;
       .posts {
-        width: 40ch;
+        width: 50ch;
       }
     }
     nav {
@@ -142,7 +137,7 @@ footer {
   }
 }
 
-@media (max-width: $breakpoint-md) {
+@media (max-width: $breakpoint-sm) {
   .content-container {
     main {
       .posts {
