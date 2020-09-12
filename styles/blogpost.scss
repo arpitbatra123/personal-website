@@ -1,70 +1,113 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
-.post-container {
-  margin-top: 20px;
-  max-width: 70ch;
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-  // https://www.xaprb.com/blog/how-to-style-images-with-markdown/
-  img[src*='#markdown'] {
-    width: 100%;
+@import 'global';
+@import 'prism-theme';
+
+ul {
+  list-style-type: circle;
+}
+
+.blogpost-container {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  font-weight: bold;
+  .name {
+    font-size: 64px;
+    line-height: 78px;
   }
-  header {
-    margin-bottom: 16px;
-    .post-date {
-      font-size: 14px;
-      color: #696969;
-    }
+  .post-title {
+    font-size: 40px;
+    line-height: 49px;
+    margin-top: 34px;
+  }
+  .post-date {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 8px;
+    display: inline-block;
+  }
+}
 
-    h1 {
-      margin-top: 1.25rem;
-      font-size: 29px;
-      line-height: 32px;
-      font-weight: 400;
-    }
+.content-container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  margin-top: 32px;
+  justify-content: space-between;
+
+  main {
+    max-width: 700px;
   }
 
-  blockquote {
-    margin: 16px 0;
-    padding: 0 1em;
-    color: #673ab7;
-    border-left: 0.25em solid;
+  nav {
+    display: flex;
+    flex-direction: column;
+    .nav-item {
+      font-weight: bold;
+      font-size: 30px;
+      text-align: center;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    & > * + * {
+      margin-top: 18px;
+    }
   }
+}
 
-  .content {
-    h2 {
-      margin: 24px 0 8px;
-      font-weight: 400; // normal font weight
-    }
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 32px 0;
 
-    h3 {
-      margin: 12px 0;
-    }
+  .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 35ch;
 
-    p {
-      margin-bottom: 10px;
-      line-height: 24px;
-      font-size: 17px;
-    }
-
-    ul {
-      list-style-type: none;
-      margin-left: 18px;
-
-      & > li::before {
-        content: '–'; /* en dash here */
-        position: absolute;
-        margin-left: -1.1em;
+    .link {
+      .twitter-logo:hover {
+        color: $twitter-hover-color;
+        fill: $twitter-hover-color;
+      }
+      .email-logo:hover {
+        color: $email-hover-color;
+      }
+      .rss-logo:hover {
+        color: $rss-hover-color;
+      }
+      .github-logo:hover {
+        color: $github-hover-color;
+        fill: $github-hover-fill-color;
       }
     }
   }
 
   .back-link {
-    margin: 16px 0 24px 0;
+    font-size: 24px;
+    text-decoration: none;
   }
+}
 
-  // Select all text wrapped in `` in markdown - generated a `code` tag without a language class
-  code:not([class*='language-']) {
-    background-color: #f2f2f2;
-    color: #1c402a;
-    padding: 2px;
+@media (max-width: $breakpoint-md) {
+  .content-container {
+    nav {
+      display: none;
+    }
+  }
+  footer {
+    flex-direction: column;
+    height: 100px;
   }
 }

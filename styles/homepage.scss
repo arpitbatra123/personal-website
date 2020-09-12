@@ -1,71 +1,128 @@
-@import url('https://fonts.googleapis.com/css2?family=Cambay&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-header {
+@import 'global';
+
+.homepage-container {
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin: 40px auto;
-  a {
-    font-size: 20px;
-    &::after {
-      content: '/';
-    }
-  }
+}
 
+header {
   .name {
-    color: #253445;
-    font-size: 2.5rem;
-  }
-
-  @media (min-width: 320px) and (max-width: 767px) {
-    margin: 30px auto;
+    font-size: 64px;
+    font-weight: bold;
   }
 }
 
-// container styles are also in common.scss but use this for the ones we only want on the homepage
-.container {
-  p {
-    margin: 8px 0;
-    line-height: 1.4rem;
-    font-size: 1rem;
-  }
-  .about-me {
-    p {
-      font-size: 21px;
-      line-height: 28px;
+.content-container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  main {
+    margin-top: 32px;
+    flex: 1;
+    .about-me {
+      font-size: 24px;
+      width: 40ch;
     }
   }
-  .posts-heading {
-    margin-top: 16px;
-    margin-bottom: 8px;
-    font-size: 1.5rem;
-  }
 
-  .posts {
-    list-style: none;
-    .post {
-      margin: 8px 0;
-      &-date {
-        font-size: 12px;
-        color: #696969;
-        margin-right: 8px;
-      }
-
-      &-title {
-        display: inline-block;
-        font-weight: 400;
-        font-size: 21px;
-        line-height: 27px;
+  nav {
+    display: flex;
+    flex-direction: column;
+    .nav-item {
+      font-weight: bold;
+      font-size: 30px;
+      text-align: center;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
       }
     }
-    .post-tags {
-      font-size: 14px;
-      .post-tag {
-        a {
-          color: #696969;
-          text-decoration: underline;
+    & > * + * {
+      margin-top: 18px;
+    }
+  }
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 35ch;
+    .link {
+      .twitter-logo:hover {
+        color: $twitter-hover-color;
+        fill: $twitter-hover-color;
+      }
+      .email-logo:hover {
+        color: $email-hover-color;
+      }
+      .rss-logo:hover {
+        color: $rss-hover-color;
+      }
+      .github-logo:hover {
+        color: $github-hover-color;
+        fill: $github-hover-fill-color;
+      }
+    }
+  }
+  .collections-link {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+@media (max-width: $breakpoint-md) {
+  .content-container {
+    main {
+      .about-me {
+        font-size: 18px;
+        width: 30ch;
+      }
+    }
+  }
+}
+
+@media (max-width: $breakpoint-sm) {
+  .homepage-container {
+    align-items: center;
+    header {
+      .name {
+        font-size: 48px;
+      }
+    }
+    .content-container {
+      display: flex;
+      flex-direction: column-reverse;
+      nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .nav-item {
+          margin-top: 0;
+          font-size: 28px;
+        }
+
+        a:last-child {
+          display: none;
         }
       }
+    }
+    footer {
+      flex-direction: column;
+      align-items: center;
     }
   }
 }

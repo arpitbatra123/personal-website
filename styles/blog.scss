@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cambay&display=swap');
+
+@import 'global';
+
+.blog-container {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  .title {
+    font-size: 64px;
+    font-weight: bold;
+  }
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  margin-top: 32px;
+
+  main {
+    flex: 1;
+    .posts {
+      width: 60ch;
+      .post {
+        &-date {
+          font-size: 12px;
+          line-height: 20px;
+          color: rgba(0, 0, 0, 0.65);
+        }
+
+        &-title {
+          font-size: 32px;
+          line-height: 39px;
+          a {
+            text-decoration: none;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    .nav-item {
+      font-weight: bold;
+      font-size: 30px;
+      text-align: center;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    & > * + * {
+      margin-top: 18px;
+    }
+  }
+}
+
+footer {
+  align-self: flex-end;
+  // Stick to bottom
+  position: fixed;
+  bottom: 2rem;
+
+  .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 35ch;
+
+    .link {
+      .twitter-logo:hover {
+        color: $twitter-hover-color;
+        fill: $twitter-hover-color;
+      }
+      .email-logo:hover {
+        color: $email-hover-color;
+      }
+      .rss-logo:hover {
+        color: $rss-hover-color;
+      }
+      .github-logo:hover {
+        color: $github-hover-color;
+        fill: $github-hover-fill-color;
+      }
+    }
+  }
+}
+
+@media (max-width: $breakpoint-md) {
+  header {
+    text-align: center;
+    .title {
+      font-size: 48px;
+    }
+  }
+  .content-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 0;
+    main {
+      margin-top: 2em;
+      .posts {
+        width: 50ch;
+      }
+    }
+    nav {
+      position: unset;
+      width: 80vw;
+      flex-direction: row;
+      justify-content: space-between;
+      .nav-item {
+        margin-top: 0;
+        font-size: 28px;
+      }
+
+      a:last-child {
+        display: none;
+      }
+    }
+  }
+
+  footer {
+    position: static;
+    align-self: center;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+  }
+}
+
+@media (max-width: $breakpoint-sm) {
+  .content-container {
+    main {
+      .posts {
+        width: 30ch;
+      }
+    }
+  }
+}

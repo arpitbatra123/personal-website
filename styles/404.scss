@@ -1,28 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@import 'global';
+
 body {
-  color: #394655;
-  background: #fffef7;
-
-  .container {
+  background-image: url('http://localhost:8080/assets/images/404.gif');
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  main {
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    img {
-      width: 650px;
-    }
-    .back-link {
-      text-align: center;
-      font-size: 24px;
-      margin-top: 8px;
-      a {
-        text-decoration: none;
-        color: #673ab7;
+    backdrop-filter: blur(5px);
+    padding: 24px;
 
-        &:hover {
-          cursor: pointer;
-          text-decoration: underline;
-        }
-      }
+    h1 {
+      font-size: 64px;
+    }
+
+    img {
+      margin-top: 32px;
+    }
+
+    span {
+      font-size: 32px;
+      margin-top: 40px;
     }
   }
 }

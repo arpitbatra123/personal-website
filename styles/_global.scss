@@ -1,0 +1,34 @@
+@import 'reset';
+@import 'variables';
+@import 'utilities';
+
+a {
+  color: currentColor;
+  &:hover {
+    color: $link-hover-color;
+    text-decoration: underline;
+  }
+}
+
+:focus {
+  outline: 2px dotted;
+  outline-offset: 0.25rem;
+}
+
+body {
+  background: $bg-color;
+}
+
+blockquote {
+  margin: 16px 0;
+  padding: 0 1em;
+  color: $link-hover-color;
+  border-left: 0.25em solid;
+}
+
+// Select all text wrapped in `` in markdown - generated a `code` tag without a language class
+code:not([class*='language-']) {
+  background-color: #f2f2f2;
+  color: #1c402a;
+  padding: 2px;
+}

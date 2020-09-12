@@ -1,0 +1,27 @@
+.lowercase {
+  text-transform: lowercase;
+}
+
+.flow > * + * {
+  margin-top: 1.5em;
+}
+
+.page-wrapper {
+  margin: 2rem ;
+  @media (max-width: $breakpoint-sm) {
+    margin: 2rem 1rem;
+    margin-bottom: 0;
+  }
+}
+
+.heading-font {
+  font-family: $heading-font;
+}
+
+.body-font {
+  font-family: $body-font;
+}
+
+.hindi-font {
+  font-family: Cambay;
+}
