@@ -1,10 +1,10 @@
 ---
-title: hell yeah or no by derek sivers - review and notes
-date: '2020-08-29'
+title: Hell yeah or no by Derek Sivers - review and notes
+date: 2020-08-29
 tags:
-  - 'book-review'
----
+- book-review
 
+---
 This book, as the author says himself is a collection of succinct ideas. These ideas can be applied to various facets of life	and depend on how you interpret them. The things written in this book might linger on at the back of your mind, as you retrospect and realign your thought processes. This is the kind of book that warrants a reread from time to time, and I am planning to do the same.
 
 Listen down below, are my highlights for this book:
