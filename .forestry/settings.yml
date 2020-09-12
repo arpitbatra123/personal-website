@@ -7,7 +7,7 @@ sections:
 - type: directory
   path: _includes
   label: Base Templates
-  create: all
+  create: documents
   match: "**/*"
 - type: directory
   path: posts
