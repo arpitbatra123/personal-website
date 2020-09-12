@@ -3,7 +3,7 @@ title: Lyrics That Go Beyond Words
 date: '2019-12-08'
 updatedAt: '2020-05-10'
 meta:
-  hindiBody: true
+  hindiBody: false
   hindiTitle: false
 tags:
   - 'collections'
@@ -19,7 +19,7 @@ I listen to a lot of different genres of music but songs that have meaningful ly
 
 **💡 Tip : You can click on any lyrics title to listen to the song on Youtube.**
 
-## [मेरा कुछ सामान](https://www.youtube.com/watch?v=OlvXDGJAMT0) {.hindi-font}
+## [मेरा कुछ सामान](https://www.youtube.com/watch?v=OlvXDGJAMT0) 
 
 एक अकेली छत्री में जब आधे आधे भीग रहे थे
 आधे सूखे, आधे गिले,
@@ -27,7 +27,7 @@ I listen to a lot of different genres of music but songs that have meaningful ly
 गिला मन शायद, बिस्तर के पास पडा हो
 वो भिजवा दो,
 मेरा वो सामान लौटा दो
-{.hindi-font}
+
 
 In the magical mellow voice of Asha Bhosle, This song is a lyrical marvel by Gulzaar.
 
@@ -39,21 +39,21 @@ I see the beauty above
 
 I first heard this song on the TV show HIMYM, and could not get the lyrics out of my mind. They hit too deep. This song got me through (or put me in?) some tough time in matters pertaining to love.
 
-## [इक बगल में चाँद होगा](https://www.youtube.com/watch?v=L_EVAdvxJcU) {.hindi-font}
+## [इक बगल में चाँद होगा](https://www.youtube.com/watch?v=L_EVAdvxJcU) 
 
 होनी और अनहोनी की परवाह किसे है मेरी जान,
 हद से ज्यादा ये ही होगा कि यहीं मर जायेंगे,
 हम मौत को सपना बता कर उठ खड़े होंगे यहीं,
 और होनी को ठेंगा दिखाकर खिलखिलाते जायेंगे,
 और होनी को ठेंगा दिखाकर खिलखिलाते जायेंगे.
-{.hindi-font}
+
 
 Darling, who cares about what will be our fate,
 Death could be the worst thing to get to me.
 We'll say that death was but a dream, and laugh at our fate,
 and laugh at our fate.
 
-## [अनकही](https://www.youtube.com/watch?v=DR0S-ocAmvo) {.hindi-font}
+## [अनकही](https://www.youtube.com/watch?v=DR0S-ocAmvo) 
 
 क्या कभी बहार भी, पेशगी लाती है?
 आने वाले पतझड़ की
@@ -63,7 +63,7 @@ and laugh at our fate.
 बेवजह तो नहीं रूठे, हैं सभी
 सदियों पुरानी ऐसी इक कहानी रह गयी,
 रह गयी अनकही
-{.hindi-font}
+
 
 Does the spring ever signify oncoming autumn?
 Or the rains of the anger of the sky?
@@ -94,26 +94,26 @@ But some things are prettier
 The way life was
 Don't you sometimes wish some things in life stay as they were?
 
-## [ज़िन्दगी प्यार का गीत है](https://www.youtube.com/watch?v=M9YGUkKphsg) {.hindi-font}
+## [ज़िन्दगी प्यार का गीत है](https://www.youtube.com/watch?v=M9YGUkKphsg) 
 
 ज़िन्दगी प्यार का गीत है
 इसे हर दिल को गाना पड़ेगा
 ज़िन्दगी ग़म का सागर भी है
 हँस के उस पार जाना पड़ेगा
-{.hindi-font}
+
 
 Life is a song of love,
 Every heart has to sing this song.
 Life is also an ocean of sorrow,
 still, we have to cross it with a smile on our faces.
 
-## [कहीं तो होगी वो](https://www.youtube.com/watch?v=KFwjibi-JRU) {.hindi-font}
+## [कहीं तो होगी वो](https://www.youtube.com/watch?v=KFwjibi-JRU) 
 
 जाने ना कहाँ वो दुनिया है,
 जाने ना वो है भी या नही,
 जहाँ मेरी ज़िन्दगी मुझसे,
 इतनी खफ़ा नही
-{.hindi-font}
+
 
 ## [Najeek](https://www.youtube.com/watch?v=AMRGmAh2NTk)
 
@@ -124,7 +124,7 @@ still, we have to cross it with a smile on our faces.
 संसार छाडिहिड्ने बांचा नदेऊन
 शुरुशुरुमा त यस्तै त हो नि
 जीन्दगानीको रीतहरुले यसैउसै हामीलाई अल्झाउने नै हो
-{.hindi-font}
+
 
 काश हाम्रो भेट केही
 सालअगाडि हुन्थ्यो
@@ -133,7 +133,7 @@ still, we have to cross it with a smile on our faces.
 समय सही हुन्थ्यो
 राजै, मौसम बेग्लै हुन्थ्यो
 तर, आज हैन नजिक नआऊन
-{.hindi-font}
+
 
 > I don't understand Nepali, the language the song is written in, so the below translation is collected from various sources on the internet
 
@@ -149,20 +149,20 @@ The time would've been right.
 The weather, different
 But not today, no, don't come close
 
-## [ज़िंदगी का सफ़र](https://www.youtube.com/watch?v=XGsx6Yi7a_Y) {.hindi-font}
+## [ज़िंदगी का सफ़र](https://www.youtube.com/watch?v=XGsx6Yi7a_Y) 
 
 ऐसे जीवन भी हैं जो जिए ही नहीं
 जिनको जीने से पहले ही मौत आ गयी
-{.hindi-font}
+
 
 There are lives which I have not yet lived,
 Death reached me before I could start living them.
 
-## [कहीं दूर जब दिन ढल जाए](https://www.youtube.com/watch?v=BmYT79bYIQw) {.hindi-font}
+## [कहीं दूर जब दिन ढल जाए](https://www.youtube.com/watch?v=BmYT79bYIQw) 
 
 कहीं तो ये, दिल कभी, मिल नहीं पाते
 कहीं से निकल आए, जनमों के नाते
-{.hindi-font}
+
 
 Somewhere we find it impossible to form loving connections
 and Sometimes, without significant effort, we form bonds that could last forever

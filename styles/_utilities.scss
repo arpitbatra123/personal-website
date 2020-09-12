@@ -7,7 +7,7 @@
 }
 
 .page-wrapper {
-  margin: 2rem ;
+  margin: 2rem;
   @media (max-width: $breakpoint-sm) {
     margin: 2rem 1rem;
     margin-bottom: 0;
@@ -20,8 +20,4 @@
 
 .body-font {
   font-family: $body-font;
-}
-
-.hindi-font {
-  font-family: Cambay;
 }

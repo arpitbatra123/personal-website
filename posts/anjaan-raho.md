@@ -2,7 +2,7 @@
 title: मंज़िल
 date: 2018-12-27
 meta:
-  hindiTitle: true
+  hindiTitle: false
   hindiBody: true
 tags:
 - poetry
@@ -12,4 +12,3 @@ tags:
 और मंज़िल का पता नहीं
 जीवन-भर के वादे कर बैठे हैं
 लेकिन क्या हो जाये कल का पता नहीं
-{.hindi-font}
