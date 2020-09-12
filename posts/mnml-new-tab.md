@@ -1,10 +1,10 @@
 ---
-title: I Made a Browser Extension Called - mnml new tab
-date: '2020-04-25'
+title: I made a browser extension called mnml new tab
+date: 2020-04-25
 tags:
-  - 'coding'
----
+- coding
 
+---
 If you've seen my blog post titled [inspo](/posts/inspo), you already know how impressed I am by [torvim's](https://torvim.github.io/) [inspo](https://u.teknik.io/E32bU.zip) collection.
 
 One day, while randomly browsing images in this collection, I came across the following image:
@@ -35,5 +35,5 @@ Here is how the new tab page looks on chrome and firefox and edge:
 
 ## Download
 
-- [Firefox Extension](https://addons.mozilla.org/en-GB/firefox/addon/mnml-new-tab/)
-- [Chrome Extension](https://chrome.google.com/webstore/detail/mnml-new-tab/mceanpcekehmcfalnmllidcfipajpeml?hl=en)
+* [Firefox Extension](https://addons.mozilla.org/en-GB/firefox/addon/mnml-new-tab/)
+* [Chrome Extension](https://chrome.google.com/webstore/detail/mnml-new-tab/mceanpcekehmcfalnmllidcfipajpeml?hl=en)
