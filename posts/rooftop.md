@@ -1,14 +1,30 @@
 ---
 title: Rooftop
-date: 2020-02-01
+date: 2020-09-12T00:00:00+05:30
 tags:
-- prose
+- poetry
 
 ---
-{{ 'worry-handwritten.jpg' | markdownImage }}
+here i stand, on the moonlit rooftop 
 
-See, that's the thing about people who worry a lot.
+watching the clouds pass me by
 
-If they're happy, they worry about whether this happiness will last long.
+there’s your silhouette, a thousand rooftops away,
 
-And If they're sad, they worry about what will they do, if this sadness lasts forever.
+you’re walking under the starry sky
+
+i remember the time i held your hand,
+
+unaware of what time had planned
+
+you came to me like rays of the rising sun,
+
+but departed like the ocean escapes the sand
+
+here i lie beside the window,
+
+staring at the ceiling high
+
+there you are, in the shadows,
+
+the fireflies bid you goodbye
