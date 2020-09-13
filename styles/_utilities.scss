@@ -2,6 +2,7 @@
   text-transform: lowercase;
 }
 
+// https://alistapart.com/article/axiomatic-css-and-lobotomized-owls/
 .flow > * + * {
   margin-top: 1.5em;
 }
