@@ -55,6 +55,7 @@ Let's also add some styles to the text we just added.
 
 ```css
 .text {
+  color: white;
   font-size: 50px;
 }
 ```
@@ -71,7 +72,7 @@ Cool! That sure does look fine but the text is stuck on the corner. Let's add so
 
 ```css
 .box {
-  background: lightgoldenrodyellow;
+  background: tomato;
   height: 200px;
   width: 200px;
   padding: 10px;
@@ -94,7 +95,7 @@ Yes, there is. Let us add the `box-sizing` property with a value of `border-box`
 
 ```css
 .box {
-  background: lightgoldenrodyellow;
+  background: tomato;
   height: 200px;
   width: 200px;
   padding: 10px;
