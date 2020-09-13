@@ -2,8 +2,6 @@
 layout: homepage.liquid
 ---
 
-> WARNING! This site is perpetually under construction
-
 I'm @arpitbatra123, a hobbyist writer, and an  engineer at [postman](https://www.postman.com/).
 
 I take photos on [unsplash](https://unsplash.com/@arpitbatra123/) and log the movies i watch on log the movies i watch on [letterboxd](https://letterboxd.com/arpitbatra123/films/).

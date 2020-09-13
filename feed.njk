@@ -14,13 +14,15 @@ permalink: feed.xml
     <email>{{ siteMeta.author.email }}</email>
   </author>
   {%- for post in collections.posts %}
-  {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(siteMeta.url) }}{% endset %}
-  <entry>
-    <title>{{ post.data.title }}</title>
-    <link href="{{ absolutePostUrl }}"/>
-    <updated>{{ post.date | rssDate }}</updated>
-    <id>{{ absolutePostUrl }}</id>
-    <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
-  </entry>
+    {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(siteMeta.url) }}{% endset %}
+    <entry>
+      <title>{{ post.data.title }}</title>
+      <link href="{{ absolutePostUrl }}"/>
+      <updated>{{ post.date | rssDate }}</updated>
+      <id>{{ absolutePostUrl }}</id>
+      <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}
+        &lt;hr/&gt; &lt;p&gt;&lt;a href=&#39;mailto:arpitbatra123@gmail.com?subject=Reply:{{post.data.title}}&#39;&gt;Reply via email&lt;/a&gt; &lt;/p&gt;
+      </content>
+    </entry>
   {%- endfor %}
 </feed>
