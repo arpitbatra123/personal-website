@@ -2,6 +2,11 @@
 
 @import 'global';
 
+body {
+  // prevent vertical scroll
+  overflow: hidden;
+}
+
 .homepage-container {
   min-height: 90vh;
   display: flex;

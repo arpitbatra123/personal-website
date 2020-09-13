@@ -64,7 +64,7 @@ header {
 footer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin: 32px 0;
 
@@ -92,8 +92,8 @@ footer {
     }
   }
 
-  .back-link {
-    font-size: 24px;
+  .home-link {
+    font-size: 30px;
     text-decoration: none;
   }
 }
