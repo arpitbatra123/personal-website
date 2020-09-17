@@ -10,10 +10,6 @@
   "feedUrl": "/feed.xml",
   "navbarData": [
     {
-      "text": "about",
-      "url": "/about"
-    },
-    {
       "text": "blog",
       "url": "/blog"
     },
@@ -23,10 +19,6 @@
     }
   ],
   "navbarDataBlog": [
-    {
-      "text": "about",
-      "url": "/about"
-    },
     {
       "text": "home",
       "url": "/"
