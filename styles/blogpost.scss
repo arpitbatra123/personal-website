@@ -64,9 +64,10 @@ header {
 footer {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin: 32px 0;
+  width: 100%;
 
   .links {
     display: flex;
@@ -93,7 +94,7 @@ footer {
   }
 
   .home-link {
-    font-size: 30px;
+    font-size: 24px;
     text-decoration: none;
   }
 }
