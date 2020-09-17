@@ -31,12 +31,12 @@ module.exports = (eleventyConfig) => {
   // Add filter for adding images in markdown
   eleventyConfig.addLiquidFilter('markdownImage', function (imageFileName, alt = '') {
     const fullPath = `../../assets/images/${imageFileName}`;
-    return `[![${alt}](${fullPath}#markdown)](${fullPath})`;
+    return `[![${alt}](${fullPath})](${fullPath})`;
   });
 
   eleventyConfig.addLiquidShortcode('markdownImage', function (imageFileName, alt = '') {
     const fullPath = `../../assets/images/${imageFileName}`;
-    return `[![${alt}](${fullPath}#markdown)](${fullPath})`;
+    return `[![${alt}](${fullPath})](${fullPath})`;
   });
 
   // For extra config options
