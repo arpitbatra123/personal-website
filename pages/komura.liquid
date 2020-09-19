@@ -1,6 +1,7 @@
 ---
 permalink: komura/index.html
 ---
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -33,13 +34,15 @@ permalink: komura/index.html
     <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ siteMeta.author.name }}" />
   </head>
   <body>
-    <main class="body-font | komura">
-      <div class="heading-font | komura-title">
+    <header>
+      <div class="komura-title">
+        <h1 class="heading-font | komura-title-text">arpit's komura</h1>
         <a
           aria-label="About Komura"
           href="https://www.wochikochi.jp/english/relayessay/2013/06/haruki-kafka.php"
           class="komura-about-link"
           target="_blank"
+          rel='noopener'
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +51,7 @@ permalink: komura/index.html
             height="24"
             viewBox="0 0 24 24"
             stroke-width="1.5"
-            stroke="#673AB7"
+            stroke="tomato"
             fill="none"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -59,38 +62,39 @@ permalink: komura/index.html
             <polyline points="15 4 20 4 20 9" />
           </svg>
         </a>
-        <div class="komura-title-text">KOMURA</div>
       </div>
-      <p class="komura-description">
+      <p class="body-font | komura-description">
         Hey There! You have arrived in my personal digital library. Here you will find the books I’ve read and reviewed
-        on <a href="https://goodreads.com/arpitbatra123">Goodreads.</a>
+        on <a href="https://goodreads.com/arpitbatra123">goodreads</a>.
       </p>
+    </header>
+    <main class="body-font | komura">
       <div class="books">
         {% for review in reviews.data %}
         <div class="book">
-          <a href="{{ review.book.link }}" target="_blank" rel="noopener">
+          <a href="{{ review.book.link }}" target="_blank" rel="noopener" class="book-cover">
             <img
               src="/assets/images/book-covers/{{ review.book.isbn }}.jpg"
-              class="book-cover"
-              width="224px"
-              height="349px"
               loading="lazy"
               alt="cover image of book {{ review.book.title }}"
             />
           </a>
           <div class="book-meta">
-            <div class="heading-font | book-title">
+            <h2 class="heading-font | book-title">
               {{ review.book.title }}
-            </div>
+            </h2>
             <p class="book-review">
               {{ review.review.body }}
             </p>
+            <div class="review-date">{{ review.review.date_read | date: '%b %Y' }}</div>
           </div>
-          <div class="review-date">{{ review.review.date_read | date: '%b %Y' }}</div>
         </div>
         {% endfor %}
       </div>
-      <p class="komura-description">That's all for now. Read my other <a href="/">posts</a>.</p>
+
+      <footer>
+        <p class="komura-description">That's all for now. Go back <a href="/">home</a>.</p>
+      </footer>
     </main>
   </body>
 </html>

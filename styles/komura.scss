@@ -2,92 +2,116 @@
 
 @import 'global';
 
+body {
+  background-color: rgb(241, 241, 241);
+  width: 70vw;
+  margin: 2rem auto;
+}
+
 .komura {
-  margin: 40px auto;
-  width: 60vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  &-about-link {
-    svg {
-      position: absolute;
-      top: 7px;
-      right: 7px;
-    }
-  }
-  @media (max-width: 768px) {
-    width: 90vw;
-  }
   &-title {
-    border: 4px solid #673ab7;
+    display: flex;
+    font-size: 2.5rem;
+    justify-content: center;
+    background: rgb(249, 249, 249);
+    margin-top: 1rem;
+    border-radius: 4px;
+  }
+
+  &-description {
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
     text-align: center;
-    width: 400px;
-    position: relative;
-    &-text {
-      font-size: 80px;
-      line-height: 109px;
-      font-weight: 200;
+  }
+
+  .books {
+    margin-top: 5rem;
+    & > * + * {
+      margin-top: 5rem;
     }
-    @media (max-width: 640px) {
-      width: 300px;
-      &-text {
-        font-size: 60px;
+
+    & > :nth-of-type(even) {
+      flex-direction: row-reverse;
+    }
+
+    .book {
+      background: rgb(249, 249, 249);
+      display: flex;
+      padding: 2rem;
+      &-cover {
+        margin-top: 0.8rem;
+        width: 224px;
+      }
+      &-meta {
+        padding: 0 2rem;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        .book-title {
+          font-size: 2rem;
+        }
+        .book-review {
+          font-size: 1.3rem;
+          margin-top: 1rem;
+        }
+        .review-date {
+          font-size: 0.9rem;
+          margin-top: 2rem;
+        }
       }
     }
-    margin-bottom: 100px;
-  }
-  &-description {
-    font-size: 24px;
-    font-weight: 100;
-    margin-bottom: 100px;
   }
 }
-.books {
-  .book {
-    display: flex;
-    border: 4px solid #673ab7;
-    position: relative;
-    margin-bottom: 100px;
-    padding: 24px;
-    .book-cover {
-      transform: translateY(-15%);
-      box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
+
+@media (max-width: $breakpoint-md) {
+  body {
+    width: 95vw;
+    margin: 1rem auto;
+  }
+
+  .komura {
+    &-title {
+      font-size: 2rem;
+      padding: 2rem;
     }
-    .book-meta {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      flex: 1;
-      margin-left: 32px;
-      @media (max-width: 768px) {
-        margin-left: 0px;
-      }
-      .book-title {
-        font-weight: 700;
-        font-size: 32px;
-        line-height: 44px;
-        text-align: center;
-      }
-      .book-review {
-        font-size: 20px;
-        line-height: 27px;
-        margin-top: 24px;
-        font-weight: 200;
-      }
+
+    &-description {
+      font-size: 1rem;
+      text-align: center;
     }
-    .review-date {
-      position: absolute;
-      right: 16px;
-      bottom: 8px;
-      color: #696969;
-    }
-    @media (max-width: 768px) {
-      flex-direction: column;
-      align-items: center;
-      .review-date {
-        position: unset;
-        align-self: flex-end;
-        margin: 16px;
+
+    .books {
+      margin-top: 2.5rem;
+      & > :nth-of-type(even) {
+        flex-direction: column;
+      }
+      .book {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        &-title {
+          margin-top: 1.5rem;
+        }
+        &-cover {
+          margin-top: 0.5rem;
+        }
+        &-meta {
+          padding: 0 32px;
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          .book-title {
+            font-size: 1.5rem;
+          }
+          .book-review {
+            font-size: 1rem;
+            margin-top: 1rem;
+          }
+          .review-date {
+            font-size: 0.8rem;
+            margin-top: 1.5rem;
+          }
+        }
       }
     }
   }
