@@ -1,6 +1,6 @@
 ---
 title: What is ‘box-sizing’ in CSS and why should it be 'border-box'?
-date: 2020-07-10T00:00:00.000+05:30
+date: 2020-07-10T02:00:00+05:30
 tags:
 - coding
 - css
