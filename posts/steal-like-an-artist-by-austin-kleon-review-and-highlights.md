@@ -25,7 +25,6 @@ A short, good book on how to do creative work.
 
 > “You are, in fact, a mashup of what you choose to let into your life”
 
-  
 18 September 2020
 
 > “We are shaped and fashioned by what we love.”
@@ -54,7 +53,6 @@ A short, good book on how to do creative work.
 
 > “The work you do while you procrastinate is probably the work you should be doing for the rest of your life.” — Jessica Hische”
 
-
 2 October 2020
 
 > “It’s so important to have a hobby. A hobby is something creative that’s just for you”
@@ -74,3 +72,7 @@ A short, good book on how to do creative work.
 12 October 2020
 
 > “Get a calendar. Fill the boxes. Don’t break the chain.”
+
+Looking for more?
+
+All the books I've read are over at [komura](/komura).
