@@ -1,6 +1,6 @@
 ---
 title: What is ‘box-sizing’ in CSS and why should it be 'border-box'?
-date: 2020-07-10T02:00:00+05:30
+date: 2020-07-10T02:00:00.000+05:30
 tags:
 - coding
 - css
@@ -9,7 +9,7 @@ tags:
 ---
 > TLDR: By default, css adds padding and margin values to the width and height of your elements. A 200px wide box with 10px padding will have an effective width of 220px. Use `box-sizing: border-box;` to prevent this.
 
-Imagine yourself embarking on a journey towards learning front-end web development. You are pretty excited as you should be! One day, you will turn beautiful designs into code.
+Imagine yourself embarking on a journey towards learning front-end web development. You are pretty excited as you should be! One day, you wiall turn beautiful designs into code.
 
 You've read countless blog posts on writing effective CSS. You don't remember what most of them were about, but you do know that the golden rule of writing CSS is that “Everything is a box”. Therefore the first thing you will draw using CSS is, well, a box.
 
@@ -125,9 +125,13 @@ These are the articles that helped me out in understanding and imparting this bo
 * [https://css-tricks.com/box-sizing/](https://css-tricks.com/box-sizing/)
 * [https://www.paulirish.com/2012/box-sizing-border-box-ftw/](https://www.paulirish.com/2012/box-sizing-border-box-ftw/)
 
-<br />
-<!-- ConvertKit JS -->
-<script async data-uid="4d9f7cbaeb" src="https://arpitbatra.ck.page/4d9f7cbaeb/index.js"></script>
+<br />  
+  
+Interested in more posts like these? Subscribe to my newsletter below to receive new posts by email.  
+  
+ <!-- ConvertKit JS -->   
+<script async data-uid="4d9f7cbaeb" src="https://arpitbatra.ck.page/4d9f7cbaeb/index.js"></script>  
+  
 <br />
 
 <!-- CodePen JS -->
