@@ -1,6 +1,6 @@
 ---
 title: What is ‘box-sizing’ in CSS and why should it be 'border-box'?
-date: 2020-07-10T00:00:00.000+05:30
+date: 2020-07-10T02:00:00+05:30
 tags:
 - coding
 - css
@@ -31,11 +31,7 @@ Then you add some CSS
 }
 ```
 
-<p class="codepen" data-height="401" data-theme-id="dark" data-default-tab="result" data-user="arpitbatra123" data-slug-hash="rNxKyEo" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="border-box step 1">
-  <span>See the Pen <a href="https://codepen.io/arpitbatra123/pen/rNxKyEo">
-  border-box step 1</a> by Arpit Batra (<a href="https://codepen.io/arpitbatra123">@arpitbatra123</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
+<p class="codepen" data-height="401" data-theme-id="light" data-default-tab="result" data-user="arpitbatra123" data-slug-hash="rNxKyEo" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="border-box step 1"> <span>See the Pen <a href="https://codepen.io/arpitbatra123/pen/rNxKyEo"> border-box step 1</a> by Arpit Batra (<a href="https://codepen.io/arpitbatra123">@arpitbatra123</a>) on <a href="https://codepen.io">CodePen</a>.</span> </p>
 
 <br />
 
@@ -60,11 +56,7 @@ Let's also add some styles to the text we just added.
 }
 ```
 
-<p class="codepen" data-height="378" data-theme-id="dark" data-default-tab="result" data-user="arpitbatra123" data-slug-hash="NWxzjKw" style="height: 378px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="border-box step 2">
-  <span>See the Pen <a href="https://codepen.io/arpitbatra123/pen/NWxzjKw">
-  border-box step 2</a> by Arpit Batra (<a href="https://codepen.io/arpitbatra123">@arpitbatra123</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
+<p class="codepen" data-height="378" data-theme-id="light" data-default-tab="result" data-user="arpitbatra123" data-slug-hash="NWxzjKw" style="height: 378px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="border-box step 2"> <span>See the Pen <a href="https://codepen.io/arpitbatra123/pen/NWxzjKw"> border-box step 2</a> by Arpit Batra (<a href="https://codepen.io/arpitbatra123">@arpitbatra123</a>) on <a href="https://codepen.io">CodePen</a>.</span> </p>
 
 <br />
 
@@ -103,11 +95,7 @@ Yes, there is. Let us add the `box-sizing` property with a value of `border-box`
 }
 ```
 
-<p class="codepen" data-height="401" data-theme-id="default" data-default-tab="result" data-user="arpitbatra123" data-slug-hash="eYJKWWo" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="border-box step 3">
-  <span>See the Pen <a href="https://codepen.io/arpitbatra123/pen/eYJKWWo">
-  border-box step 3</a> by Arpit Batra (<a href="https://codepen.io/arpitbatra123">@arpitbatra123</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
+<p class="codepen" data-height="401" data-theme-id="light" data-default-tab="result" data-user="arpitbatra123" data-slug-hash="eYJKWWo" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="border-box step 3"> <span>See the Pen <a href="https://codepen.io/arpitbatra123/pen/eYJKWWo"> border-box step 3</a> by Arpit Batra (<a href="https://codepen.io/arpitbatra123">@arpitbatra123</a>) on <a href="https://codepen.io">CodePen</a>.</span> </p>
 
 <br />
 
@@ -134,8 +122,8 @@ Once this is done, you should not struggle with weird widths anymore. The browse
 
 These are the articles that helped me out in understanding and imparting this box-sizing wisdom to you. Visit them for more information on box-sizing and some examples of how this property can be helpful in a world real use case.
 
-- [https://css-tricks.com/box-sizing/](https://css-tricks.com/box-sizing/)
-- [https://www.paulirish.com/2012/box-sizing-border-box-ftw/](https://www.paulirish.com/2012/box-sizing-border-box-ftw/)
+* [https://css-tricks.com/box-sizing/](https://css-tricks.com/box-sizing/)
+* [https://www.paulirish.com/2012/box-sizing-border-box-ftw/](https://www.paulirish.com/2012/box-sizing-border-box-ftw/)
 
 <br />
 <!-- ConvertKit JS -->

@@ -1,17 +1,19 @@
 ---
-title: The year without pants by Scott Berkun - review and notes
+title: The Year Without Pants by Scott Berkun - review and highlights
 date: 2020-08-29
 tags:
 - book-review
 
 ---
+## Review
+
 This is a very interesting book, and you feel like you're a part of the story the author is narrating. I am intrigued about the idea of remote work for a very long time, and if remote work is executed like Automattic has been doing in the last decade, it really can become the future of work.
 
-I was impressed with the calibre demonstrated by the author while being a manager at Automattic, and the book is full of wonderful lessons that can be applied in your personal/professional life.
+I was impressed with the caliber demonstrated by the author while being a manager at Automattic, and the book is full of wonderful lessons that can be applied in your personal/professional life.
 
 As the book draws to a close, the author talks about how work in the modern era might not be psychologically fulfilling and a better work culture might solve this. This struck a chord with me, as I'm more than often concerned with the "meaning" of work but as the author says, work and play might not need to be mutually exclusive.
 
-Listen down below, are my highlights for this book:
+## Highlights
 
 14 July 2020
 What You Need to Know
