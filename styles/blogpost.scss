@@ -19,6 +19,9 @@ header {
   .name {
     font-size: 64px;
     line-height: 78px;
+    a {
+      text-decoration: none;
+    }
   }
   .post-title {
     font-size: 40px;
