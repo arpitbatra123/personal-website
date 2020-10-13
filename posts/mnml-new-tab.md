@@ -37,3 +37,12 @@ Here is how the new tab page looks on chrome and firefox and edge:
 
 * [Firefox Extension](https://addons.mozilla.org/en-GB/firefox/addon/mnml-new-tab/)
 * [Chrome Extension](https://chrome.google.com/webstore/detail/mnml-new-tab/mceanpcekehmcfalnmllidcfipajpeml?hl=en)
+
+### Update - 26th September 2020
+
+Added dark mode support:
+
+<video controls autoplay loop>
+  <source src="../../assets/images/mnml-new-tab-dark-mode.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
