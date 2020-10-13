@@ -9,7 +9,7 @@ tags:
 ---
 > TLDR: By default, css adds padding and margin values to the width and height of your elements. A 200px wide box with 10px padding will have an effective width of 220px. Use `box-sizing: border-box;` to prevent this.
 
-Imagine yourself embarking on a journey towards learning front-end web development. You are pretty excited as you should be! One day, you wiall turn beautiful designs into code.
+Imagine yourself embarking on a journey towards learning front-end web development. You are pretty excited as you should be! One day, you will turn beautiful designs into code.
 
 You've read countless blog posts on writing effective CSS. You don't remember what most of them were about, but you do know that the golden rule of writing CSS is that “Everything is a box”. Therefore the first thing you will draw using CSS is, well, a box.
 
