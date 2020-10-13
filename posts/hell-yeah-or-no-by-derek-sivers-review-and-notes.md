@@ -1,5 +1,5 @@
 ---
-title: Hell yeah or no by Derek Sivers - review and notes
+title: Hell yeah or no by Derek Sivers - review and highlights
 date: 2020-08-29
 tags:
 - book-review
