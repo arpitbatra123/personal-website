@@ -127,7 +127,7 @@ These are the articles that helped me out in understanding and imparting this bo
 
 <br />  
   
-Interested in more posts like these? Subscribe to my newsletter below to receive new posts by email.  
+**Interested in more posts like these? Subscribe to my newsletter below to receive new posts by email.**  
   
  <!-- ConvertKit JS -->   
 <script async data-uid="4d9f7cbaeb" src="https://arpitbatra.ck.page/4d9f7cbaeb/index.js"></script>  
