@@ -1,124 +1,76 @@
 ---
-title: Steal Like An Artisy by Austin Kleon - review and highlights
+title: Steal Like An Artist by Austin Kleon - review and highlights
 date: 2020-08-29
 tags:
 - book-review
 
 ---
-This is a very interesting book, and you feel like you're a part of the story the author is narrating. I am intrigued about the idea of remote work for a very long time, and if remote work is executed like Automattic has been doing in the last decade, it really can become the future of work.
+## Review:
 
-I was impressed with the calibre demonstrated by the author while being a manager at Automattic, and the book is full of wonderful lessons that can be applied in your personal/professional life.
+A short, good book on how to do creative work.
 
-As the book draws to a close, the author talks about how work in the modern era might not be psychologically fulfilling and a better work culture might solve this. This struck a chord with me, as I'm more than often concerned with the "meaning" of work but as the author says, work and play might not need to be mutually exclusive.
+## Highlights:
 
-Listen down below, are my highlights for this book:
+15 September 2020
 
-14 July 2020
-What You Need to Know
+> “Immature poets imitate; mature poets steal; bad poets deface what they take, and good poets make it into something better, or at least something different. The good poet welds his theft into a whole of feeling which is unique, utterly different from that from which it was torn.”
 
-> Giving advice is easy;
+—T. S. Eliot”
 
-It sure is!
+31 August 2020
 
-14 July 2020
-Chapter 1: The Hotel Electra
+> “As the French writer André Gide put it, “Everything that needs to be said has already been said. But, since no one was listening, everything must be said again.”
 
-> An amazing thing about our digital age is that the person next to you at Starbucks might just be hacking into a Swiss bank or launching multiwarhead nuclear missiles continents away. Or maybe he's just on Facebook. You can't tell the difference unless you're nosy enough to peek over his shoulder.
+18 September 2020
 
-14 July 2020
-Chapter 2: The First Day
+> “You are, in fact, a mashup of what you choose to let into your life”
 
-> “I'm doubtful of attempts to change reality simply by changing something's name. I could call Griz a wonder-dog-supergenius (WDSG), but that won't stop him from spending most days chewing bones and chasing squirrels.”
+  
+18 September 2020
 
-19 July 2020
-Chapter 4: Culture Always Wins
+> “We are shaped and fashioned by what we love.”
 
-> Product creators are the true talent of any corporation, especially one claiming to bet on innovation.
+23 September 2020
 
-20 July 2020
-Chapter 6: The Bazaar at the Cathedral
+> “Google everything. I mean everything. Google your dreams, Google your problems”
 
-> The inability to scale is one of the stupidest arguments against a possibly great idea: greatness rarely scales, and that's part of what made it great in the first place.
+24 September 2020
 
-25 July 2020
-Chapter 6: The Bazaar at the Cathedral
+> “In my experience, it’s in the act of making things and doing our work that we figure out who we are.”
 
-> The fundamental mistake companies that talk about innovation make is keeping barriers to entry high
+29 September 2020
 
-27 July 2020
-Chapter 8: The Future of Work, Part 1
+> “It is our failure to become our perceived ideal that ultimately defines us and makes us unique”
 
-> When you read any two books on the same subject, you realize there is more good advice than anyone can possibly apply
+29 September 2020
 
-27 July 2020
-Chapter 8: The Future of Work, Part 1
+> “All fiction, in fact, is fan fiction.”
 
-> All traditions are inventions; it's just a question of how old the invention is.
+29 September 2020
 
-5 August 2020
-Chapter 9: Working the Team
+> “Whenever you’re at a loss for what move to make next, just ask yourself, “What would make a better story?”
 
-> The realization that everyone is different when you talk to them alone is a secret to success in life
+30 September 2020
 
-5 August 2020
-Chapter 9: Working the Team
+> “The work you do while you procrastinate is probably the work you should be doing for the rest of your life.” — Jessica Hische”
 
-> “Asking the user experience question is the ultimate way to prioritize engineering work, as it shifts the perspective back to where it belongs: the impact that decisions will have on customers, not engineers. Both matter, but the customer matters more.”
 
-5 August 2020
-Chapter 10: How to Start a Fire
+2 October 2020
 
-> In other words, by regularly fixing small things, you prevent bigger problems from starting
+> “It’s so important to have a hobby. A hobby is something creative that’s just for you”
 
-7 August 2020
-Chapter 10: How to Start a Fire
+2 October 2020
 
-> Just as there is an advice paradox, there is a data paradox: no matter how much data you have, you still depend on your intuition for deciding how to interpret and then apply the data.
+> “Don’t throw any of yourself away. Don’t worry about a grand scheme or unified vision for your work. Don’t worry about unity—what unifies your work is the fact that you made it”
 
-7 August 2020
-Chapter 11: Real Artists Ship
+5 October 2020
 
-> “It's design, not functionality, that determines if people will succeed or fail in fulfilling the promises products have made to them.”
+> “But there’s only one not-so-secret formula that I know: Do good work and share it with people.”
 
-10 August 2020
-Chapter 13: Double Down
+12 October 2020
 
-> To start big projects, you must have the capacity for delusion. All the rational people, despite their brilliance, are too reasonable to start crazy things
+> “If you ever find that you’re the most talented person in the room, you need to find another room.”
 
-18 August 2020
-Chapter 14: There Can Be Only One
+12 October 2020
 
-> Projects accumulate a pile of annoying tasks people postpone, but in order to ship the product, that pile must be emptied.
-
-18 August 2020
-Chapter 15: The Future of Work, Part 2
-
-> if you have people who trust each other and have similar goals, they'll be effective with smoke signals and carrier pigeons. Wars have been won by tightly knit armies using candles and Morse code
-
-23 August 2020
-Chapter 19: The Rise of Jetpack
-
-> The natural mistake engineers make is to build from the bottom up
-
-25 August 2020
-Chapter 21: Portland and the Collective
-
-> Ideas are evaluated differently depending on the mouth they come out of.
-
-27 August 2020
-Chapter 22: The Bureau of Socialization
-
-> The first day of a new team on a short deadline is fascinating anthropology
-
-27 August 2020
-Chapter 24: The Future of Work, Part 3
-
-> While money provides status, status doesn't guarantee meaning.
-
-All Excerpts From
-
-Scott Berkun. “The Year Without Pants”.
-
-Looking for more?
-
-All the books I've read are over at [komura](/komura).
+> “Get a calendar. Fill the boxes. Don’t break the chain.”
