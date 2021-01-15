@@ -20,10 +20,12 @@ body {
 }
 
 blockquote {
-  margin: 16px 0;
-  padding: 0 1em;
-  color: $link-hover-color;
-  border-left: 0.25em solid;
+  & > :not(.twitter-embed) {
+    margin: 16px 0;
+    padding: 0 1em;
+    color: $link-hover-color;
+    border-left: 0.25em solid;
+  }
 }
 
 // Select all text wrapped in `` in markdown - generated a `code` tag without a language class

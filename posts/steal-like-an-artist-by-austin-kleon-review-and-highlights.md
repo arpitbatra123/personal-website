@@ -1,6 +1,6 @@
 ---
 title: Steal Like An Artist by Austin Kleon - review and highlights
-date: 2020-10-13T15:00:00+05:30
+date: 2020-10-08T15:00:00+05:30
 tags:
 - book-review
 

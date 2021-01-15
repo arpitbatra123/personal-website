@@ -2,12 +2,10 @@
 title: The importance of web accessibility
 date: 2020-10-09T00:00:00+05:30
 tags:
-- a11y
-- accessibility
-- web
-
+  - a11y
+  - accessibility
+  - web
 ---
-# The importance of web accessibility
 
 I believe the "web" is one of the most important inventions of humankind. We take being connected to the world 24x7 for granted now, but it's the web that has empowered us to achieve this feat. But, while we are empowering the world through the web, some people are still being left out because our web interfaces are not accessible.
 
@@ -24,27 +22,25 @@ Accessibility on the web are the same principles but applied to web development.
 
 Let me now give you some reasons why I have started caring about accessibility:
 
-##   
-\#1 Accessibility empowers all users
+## #1 Accessibility empowers all users
 
 The role of technology is to take humanity to the next level. The invention of the World Wide Web is the driving force for that. The internet has made a student in a remote city in India learn from the best Entrepreneurs in Silicon Valley. But when we don't think of accessibility, a lot of people with disabilities and unable to reap the benefits of the web.
 
 > Technology is meant to empower people, and inaccessible interfaces leave disabled users feeling powerless
 
-##   
-\#2 The absence of accessibility deeply affects people’s emotions
+## #2 The absence of accessibility deeply affects people’s emotions
 
 (alt- You don't wanna make Larene's dad cry)
 
-The internet has brought about an information revolution but what good is a revolution which leaves a lot of people out deliberately?  
-  
+The internet has brought about an information revolution but what good is a revolution which leaves a lot of people out deliberately?
+
 As Software Engineers, we like to think that we are “Changing the world” but not all of these changes are positive. See this tweet by the user LareneLg for an example of the adverse effects of an inaccessible web:
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Today, my dad cried over the phone, he wanted one week where he could use his computer without my help.<br><br>He&#39;s blind.<br><br>Each inaccessible webpage tells him, &quot;you aren&#39;t welcome in this world.&quot;<br><br>If you don&#39;t know whether your website or app is accessible: it&#39;s not.<br><br>Start learning.</p>&mdash; Larene (@LareneLg) <a href="[https://twitter.com/LareneLg/status/1270578058714443776?ref_src=twsrc%5Etfw](https://twitter.com/LareneLg/status/1270578058714443776?ref_src=twsrc%5Etfw "https://twitter.com/LareneLg/status/1270578058714443776?ref_src=twsrc%5Etfw")">June 10, 2020</a></blockquote> <script async src="[https://platform.twitter.com/widgets.js](https://platform.twitter.com/widgets.js "https://platform.twitter.com/widgets.js")" charset="utf-8"></script>
+https://twitter.com/LareneLg/status/1270578058714443776
 
 A few months ago the below video was making rounds on Twitter. It shows how a blind user Kristy_Viersis able to use her iPhone and tweet through the use of accessibility features. Everybody commended the accessibility features that were able to provide her this experience which did not exclude her because of her disability.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I thought I would share how I, as someone who is visually impaired use my iPhone.☺️ <a href="https://t.co/wPI9smOIq0">pic.twitter.com/wPI9smOIq0</a></p>&mdash; Kristy Viers 🦯 (@Kristy_Viers) <a href="[https://twitter.com/Kristy_Viers/status/1287189581926981634?ref_src=twsrc%5Etfw](https://twitter.com/Kristy_Viers/status/1287189581926981634?ref_src=twsrc%5Etfw "https://twitter.com/Kristy_Viers/status/1287189581926981634?ref_src=twsrc%5Etfw")">July 26, 2020</a></blockquote> <script async src="[https://platform.twitter.com/widgets.js](https://platform.twitter.com/widgets.js "https://platform.twitter.com/widgets.js")" charset="utf-8"></script>
+https://twitter.com/Kristy_Viers/status/1287189581926981634
 
 The two tweets you just read demonstrate the wide contrast that exists due to the absence of accessibility on the web.
 
@@ -52,7 +48,6 @@ The two tweets you just read demonstrate the wide contrast that exists due to th
 
 ## #3 Accessibility is not just about blind users
 
-  
 Due to the tweets you read in the previous point, you must be thinking that accessibility mostly focuses on making interfaces usable for blind users. However, that is not the case. In reality, people's experience on the web is affected by a wide range of disabilities, ranging from visual (complete blindness, color blindness, etc.) to auditory (hearing impaired), etc.
 
 > Thus, accessibility is making sure that the web should be usable by the widest range of people possible.
@@ -69,6 +64,6 @@ If Accessibility is taken care of in the design step itself, then it can enhance
 
 ## #5 Accessibility saves your company from Lawsuits
 
-Don't believe me? [See](https://www.cnbc.com/2019/10/07/dominos-supreme-court.html "https://www.cnbc.com/2019/10/07/dominos-supreme-court.html") for yourself
+Don't believe me? [See](https://www.cnbc.com/2019/10/07/dominos-supreme-court.html 'https://www.cnbc.com/2019/10/07/dominos-supreme-court.html') for yourself
 
 I hope I was able to open your mind to how important accessibility on the web is. Your next steps from here should be how to incorporate accessibility during development and design. Do remember that small steps towards accessibility can make a big difference. Awareness is the first step, Action the second. The web is full of information on how you can write code that makes sure interfaces on the web are accessible. In the upcoming weeks, I am planning to write some blog posts with quick tips that can help you with accessibility.
