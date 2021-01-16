@@ -1,0 +1,9 @@
+{
+  "name": "Arpit Batra",
+  "short_name": "Arpit",
+  "theme_color": "#9b362a",
+  "background_color": "#fffdff",
+  "display": "minimal-ui",
+  "scope": "/",
+  "start_url": "/"
+}
