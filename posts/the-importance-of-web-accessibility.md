@@ -1,12 +1,12 @@
 ---
 title: The importance of web accessibility
-date: 2020-10-09T00:00:00+05:30
+date: 2020-10-09T00:00:00.000+05:30
 tags:
-  - a11y
-  - accessibility
-  - web
----
+- a11y
+- accessibility
+- web
 
+---
 I believe the "web" is one of the most important inventions of humankind. We take being connected to the world 24x7 for granted now, but it's the web that has empowered us to achieve this feat. But, while we are empowering the world through the web, some people are still being left out because our web interfaces are not accessible.
 
 Let me explain by telling you a personal anecdote.
@@ -24,7 +24,7 @@ Let me now give you some reasons why I have started caring about accessibility:
 
 ## #1 Accessibility empowers all users
 
-The role of technology is to take humanity to the next level. The invention of the World Wide Web is the driving force for that. The internet has made a student in a remote city in India learn from the best Entrepreneurs in Silicon Valley. But when we don't think of accessibility, a lot of people with disabilities and unable to reap the benefits of the web.
+The role of technology is to take humanity to the next level. The invention of the World Wide Web is the driving force for that. The internet has made a student in a remote city in India learn from the best Entrepreneurs in Silicon Valley. But when we don't think of accessibility, a lot of people with disabilities are unable to reap the benefits of the web.
 
 > Technology is meant to empower people, and inaccessible interfaces leave disabled users feeling powerless
 
@@ -44,7 +44,7 @@ https://twitter.com/Kristy_Viers/status/1287189581926981634
 
 The two tweets you just read demonstrate the wide contrast that exists due to the absence of accessibility on the web.
 
-> Always remember all your users are not young healthy people in their 20s so design for a wide range of users and make sure your web interfaces are accessible
+> Always remember all your users are not young healthy people in their 20s, so design for a wide range of users and make sure your web interfaces are accessible
 
 ## #3 Accessibility is not just about blind users
 
@@ -54,7 +54,7 @@ Due to the tweets you read in the previous point, you must be thinking that acce
 
 ![](/assets/github-accessibility.png)
 
-Color Contrast is one of the things we need to make sure while designing interfaces, as we can see clearly ( pun intended), people with good vision can also be adversely affected if we don't incorporate accessibility in design.
+Color Contrast is one of the things we need to make sure while designing interfaces, as we can see clearly (pun intended), people with good vision can also be adversely affected if we don't incorporate accessibility in design.
 
 ## #4 Accessibility encourages best practices
 
@@ -64,6 +64,8 @@ If Accessibility is taken care of in the design step itself, then it can enhance
 
 ## #5 Accessibility saves your company from Lawsuits
 
-Don't believe me? [See](https://www.cnbc.com/2019/10/07/dominos-supreme-court.html 'https://www.cnbc.com/2019/10/07/dominos-supreme-court.html') for yourself
+Don't believe me? [See](https://www.cnbc.com/2019/10/07/dominos-supreme-court.html "https://www.cnbc.com/2019/10/07/dominos-supreme-court.html") for yourself.
+
+## Closing thoughts
 
 I hope I was able to open your mind to how important accessibility on the web is. Your next steps from here should be how to incorporate accessibility during development and design. Do remember that small steps towards accessibility can make a big difference. Awareness is the first step, Action the second. The web is full of information on how you can write code that makes sure interfaces on the web are accessible. In the upcoming weeks, I am planning to write some blog posts with quick tips that can help you with accessibility.
