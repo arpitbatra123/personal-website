@@ -12,4 +12,5 @@ fields:
   name: tags
   label: tags
 pages:
+- posts/ghosts-of-the-fallen-past.md
 - posts/the-importance-of-web-accessibility.md
