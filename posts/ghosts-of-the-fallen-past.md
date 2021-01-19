@@ -12,7 +12,7 @@ Being the history buff I am, I instantly wanted to visit it.
 
 We were in the area when I put the location on google maps and told the driver to drive. The map showed another active cemetery nearby, and as we reached there was a lock on the gates. I was disappointed and also a little embarrassed because my family in the car were not very supportive of my grave hunting escapades.
 
-I was about to give up when our driver, who must have guessed how hopeful I was of looking at some old graves decided to stop.
+I was about to give up when our driver, who must have guessed how hopeful I was of looking at some old graves, decided to stop.
 
 We asked some locals who told me to take the path that led downhill into the jungle.
 
@@ -32,7 +32,7 @@ Seeing them gave me newfound confidence and I decided to jump over a broken port
 
 I was very afraid and definitely prayed to Jesus although I am not a Christian because what I was doing was definitely how a lot of Hollywood horror movies start.
 
-I had a look at some of the graves and started clicking photos but the graves i found were very recent. The youtube video I saw showcased graves from the year 1800 so I decided to keep looking.
+I had a look at some of the graves and started clicking photos but the graves I found were very recent. The youtube video I saw showcased graves from the year 1800 so I decided to keep looking.
 
 If you’ve ever been to a hilly area, you must know that mountain slopes are made navigable by diving the region into step-like structures.
 
@@ -41,3 +41,9 @@ I headed down some steps and then found what I was looking for.
 Here are some photos:
 
 ![Path leading to cementry](/assets/img_0570.jpg)
+
+![Locked Gates of the cemetary](/assets/img_0571.jpg)
+
+![Ancient grave](/assets/img_0577.jpg)
+
+![Ancient grave in the cemetery](/assets/img_0578.jpg)
