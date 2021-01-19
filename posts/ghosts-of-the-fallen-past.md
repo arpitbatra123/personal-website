@@ -40,6 +40,8 @@ I headed down some steps and then found what I was looking for.
 
 Here are some photos:
 
+ .
+
 ![Path leading to cementry](/assets/img_0570.jpg)
 
 ![Locked Gates of the cemetary](/assets/img_0571.jpg)
