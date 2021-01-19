@@ -10,23 +10,23 @@ I went on a trip to Mussoorie today.  Mussorie has a very old heritage especiall
 
 Being the history buff I am, I instantly wanted to visit it.
 
-We were in the area when I put the location on google maps and told the driver to drive. The map showed another active cemetery nearby, and as we reached there was a lock on the gates. I was disappointed and also a little embarrassed because my family in the car were not very supportive of my grave hunting escapades.  
+We were in the area when I put the location on google maps and told the driver to drive. The map showed another active cemetery nearby, and as we reached there was a lock on the gates. I was disappointed and also a little embarrassed because my family in the car were not very supportive of my grave hunting escapades.
 
-I was about to give up when our driver, who must have guessed how hopeful I was of looking at some old graves decided to stop. 
+I was about to give up when our driver, who must have guessed how hopeful I was of looking at some old graves decided to stop.
 
 We asked some locals who told me to take the path that led downhill into the jungle.
 
 I don’t think I took heed of anything else around me and dashed into the path.
 
-It was a typical downhill curvy path and I was initially unsure whether I was on the right path. I kept walking and saw an ancient structure that definitely looked like a cemetery, so I kept walking. 
+It was a typical downhill curvy path and I was initially unsure whether I was on the right path. I kept walking and saw an ancient structure that definitely looked like a cemetery, so I kept walking.
 
-As I reached the gates of the place, I realized they were closed as well, with a notice saying that entry was not allowed. 
+As I reached the gates of the place, I realized they were closed as well, with a notice saying that entry was not allowed.
 
 Graves are a morbid place to be so I understood their intentions, but my expedition was incomplete.
 
-I was breathing heavily due to all the downhill walking I was doing and also out of excitement. 
+I was breathing heavily due to all the downhill walking I was doing and also out of excitement.
 
-Soon I heard the voices of my mom and sister. They must have followed me here. 
+Soon I heard the voices of my mom and sister. They must have followed me here.
 
 Seeing them gave me newfound confidence and I decided to jump over a broken portion of the wall to go inside and do what I came here for.
 
