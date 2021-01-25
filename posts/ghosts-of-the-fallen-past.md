@@ -1,6 +1,6 @@
 ---
 title: Ghosts of the fallen past
-date: 2021-01-10T21:48:00+05:30
+date: 2021-01-10T21:48:00.000+05:30
 tags:
 - life
 - stories
@@ -22,7 +22,7 @@ It was a typical downhill curvy path and I was initially unsure whether I was on
 
 As I reached the gates of the place, I realized they were closed as well, with a notice saying that entry was not allowed.
 
-Graves are a morbid place to be so I understood their intentions, but my expedition was incomplete.
+Graves are a morbid place to be, so I understood their intentions, but my expedition was incomplete.
 
 I was breathing heavily due to all the downhill walking I was doing and also out of excitement.
 
@@ -34,7 +34,7 @@ I was very afraid and definitely prayed to Jesus although I am not a Christian b
 
 I had a look at some of the graves and started clicking photos but the graves I found were very recent. The youtube video I saw showcased graves from the year 1800 so I decided to keep looking.
 
-If you’ve ever been to a hilly area, you must know that mountain slopes are made navigable by diving the region into step-like structures.
+If you’ve ever been to a hilly area, you must know that mountain slopes are made navigable by dividing the region into step-like structures.
 
 I headed down some steps and then found what I was looking for.
 
@@ -51,6 +51,6 @@ Here are some photos:
 [![Ancient grave in the cemetery](/assets/img_0578.jpg)](/assets/img_0578.jpg)
 
 <video autoplay loop muted>
-  <source src="/assets/img_0578.mp4">
-  Your browser does not support the video tag.
+<source src="/assets/img_0578.mp4">
+Your browser does not support the video tag.
 </video>
