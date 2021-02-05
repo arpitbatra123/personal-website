@@ -68,4 +68,6 @@ Don't believe me? [See](https://www.cnbc.com/2019/10/07/dominos-supreme-court.ht
 
 ## Closing thoughts
 
-I hope I was able to open your mind to how important accessibility on the web is. Your next steps from here should be how to incorporate accessibility during development and design. Do remember that small steps towards accessibility can make a big difference. Awareness is the first step, Action the second. The web is full of information on how you can write code that makes sure interfaces on the web are accessible. In the upcoming weeks, I am planning to write some blog posts with quick tips that can help you with accessibility.
+I hope I was able to open your mind to how important accessibility on the web is. Your next steps from here should be how to incorporate accessibility during development and design. Do remember that small steps towards accessibility can make a big difference. Awareness is the first step, Action the second. The web is full of information on how you can write code that makes sure interfaces on the web are accessible. In the upcoming weeks, I am planning to write some blog posts with quick tips that can help you with accessibility.  
+  
+<script async data-uid="4d9f7cbaeb" src="https://arpitbatra.ck.page/4d9f7cbaeb/index.js"></script>
