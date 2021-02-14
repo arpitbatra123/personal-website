@@ -52,7 +52,7 @@ Due to the tweets you read in the previous point, you must be thinking that acce
 
 > Thus, accessibility is making sure that the web should be usable by the widest range of people possible.
 
-![](/assets/github-accessibility.png)
+![The contrast in the Windows (and I assume other platforms) client is too low, it is killing my eyes. Grey on black or grey on white does not provide enough contrast between text and background. The whole application has a kind of permanently 'disabled' look to it, which it makes it painful to use for extended periods of time. The text needs to be darker in the light theme and lighter in the dark theme. Same for element borders, etc.](/assets/github-accessibility.png)
 
 Color Contrast is one of the things we need to make sure while designing interfaces, as we can see clearly (pun intended), people with good vision can also be adversely affected if we don't incorporate accessibility in design.
 
