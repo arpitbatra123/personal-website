@@ -1,9 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+/* inter-regular - latin */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local(""), url("../assets/fonts/inter-v3-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */ url("../assets/fonts/inter-v3-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 
-@import 'global';
+@import "global";
 
 body {
-  background-image: url('/assets/images/404.gif');
+  background-image: url("/assets/images/404.gif");
   background-position: 50%;
   background-size: cover;
   color: white;
