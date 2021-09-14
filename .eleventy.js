@@ -15,7 +15,6 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy('manifest.json');
   eleventyConfig.addPassthroughCopy('_redirects');
   eleventyConfig.addPassthroughCopy('admin');
-  eleventyConfig.addPassthroughCopy('resume.pdf');
 
   eleventyConfig.setDataDeepMerge(true);
 
