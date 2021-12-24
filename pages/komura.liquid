@@ -42,8 +42,7 @@ permalink: komura/index.html
           href="https://www.wochikochi.jp/english/relayessay/2013/06/haruki-kafka.php"
           class="komura-about-link"
           target="_blank"
-          rel='noopener'
-        >
+          rel="noopener">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="icon icon-tabler icon-tabler-external-link"
@@ -54,8 +53,7 @@ permalink: komura/index.html
             stroke="tomato"
             fill="none"
             stroke-linecap="round"
-            stroke-linejoin="round"
-          >
+            stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" />
             <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
             <line x1="10" y1="14" x2="20" y2="4" />
@@ -72,13 +70,9 @@ permalink: komura/index.html
       <div class="books">
         {% for review in reviews.data %}
         <div class="book">
-          <a href="{{ review.book.link }}" target="_blank" rel="noopener" class="book-cover">
-            <img
-              src="/assets/images/book-covers/{{ review.book.isbn }}.jpg"
-              loading="lazy"
-              alt="cover image of book {{ review.book.title }}"
-            />
-          </a>
+          <div class="book-cover">
+            {{ review.book.photoUrl }}
+          </div>
           <div class="book-meta">
             <h2 class="heading-font | book-title">
               {{ review.book.title }}

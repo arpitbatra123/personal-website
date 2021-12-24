@@ -1,11 +1,11 @@
 /* inter-regular - latin */
 @font-face {
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local(""), url("../assets/fonts/inter-v3-latin-regular.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */ url("../assets/fonts/inter-v3-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local(''), url('../assets/fonts/inter-v3-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */ url('../assets/fonts/inter-v3-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 @import 'global';
@@ -38,17 +38,15 @@ body {
       margin-top: 5rem;
     }
 
-    & > :nth-of-type(even) {
-      flex-direction: row-reverse;
-    }
-
     .book {
       background: rgb(249, 249, 249);
       display: flex;
       padding: 2rem;
       &-cover {
-        margin-top: 0.8rem;
-        width: 224px;
+        img {
+          width: 224px;
+          margin-top: 0.8rem;
+        }
       }
       &-meta {
         padding: 0 2rem;
