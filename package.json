@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "my personal website",
   "scripts": {
-    "build": "eleventy && npm run sass",
+    "build": "eleventy && npm run sass && npx prettier --write _site",
     "serve": "npm run clean && concurrently --success all 'eleventy --serve' 'npm run sass:watch'",
     "sass": "sass styles:_site/styles --no-source-map --style=compressed --update",
     "sass:watch": "npm run sass && npm run sass -- --watch",
