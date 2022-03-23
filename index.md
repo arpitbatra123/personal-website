@@ -2,8 +2,7 @@
 layout: homepage.liquid
 ---
 
-I'm @arpitbatra123, a hobbyist writer, and an engineer at [postman](https://www.postman.com/).
+I'm @arpitbatra123, a hobbyist writer, and a frontend developer. Most recently, I worked at [postman](https://postman.com).
+I'm currently on a break and passively looking for a new job.
 
-I take photos on [unsplash](https://unsplash.com/@arpitbatra123/) and log the movies i watch on [letterboxd](https://letterboxd.com/arpitbatra123/films/).
-
-Read on to find poems, philosophy, life updates and some technical posts related to my adventures with computers.
+[Read on](/blog) to find poems, philosophy, life updates and some technical posts related to my adventures with computers.
