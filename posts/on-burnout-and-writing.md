@@ -20,7 +20,7 @@ In the back of my mind, I had made the decision to quit, but I didn't know what 
   
 This left me stuck in an endless cycle of wanting more from my life, but not being able to get it. All this time, I at least wanted to be good at my job, and earn good money while doing it, but now that I did not even want to do that, I was left with nothing much to look forward to.  
   
-I spent that week talking to friends and family. I'm privileged to have a few good friends who I can trust to give good advice. (Thanks, \[Danish\]([https://danishpraka.sh/](https://danishpraka.sh/ "https://danishpraka.sh/")) ) , and they helped bring my stress levels down.  
+I spent that week talking to friends and family. I'm privileged to have a few good friends who I can trust to give good advice. ( Thanks, [Danish](https://danishpraka.sh/) ) , and they helped bring my stress levels down.  
   
 For those few days, I was very free to do anything my heart desired. All I did was brood, sleep in the sun, and do some light reading.    
   
@@ -33,11 +33,11 @@ Such a life-changing turmoil happened within the span of \~10 days and It's poss
 I've recognized a lot of reasons that may have led me down this dark path, but we'll discuss those another day.   
   
   
-\## What next?  
+## What next?  
   
 I do have a few months of runway in terms of savings, and therefore me leaving my job won't bring along financial misfortune, but dipping into my savings makes me anxious, so I'm trying to find another job. I think I'll be happy to earn a little bit less than what I previously earned, provided the new job is not so stressful and leaves me the energy to do more stuff with my life. These are my short-term plans though. In the long term, I want to, first of all, clear out long-pending items from my to-do list and focus more on things that give me joy.  
   
-\## Writing  
+## Writing  
   
 Yes, Writing is one of the things I've always wanted to do more of. I think I'm a good writer and writing stories about your life also helps preserve memories.   
 However, I've not published much on this blog. The major reason for that is yak-shaving. I am a front-end developer, and every few months, I get bored of the current design. I do have things that I wanna write about, but I spend my energy on redesigning and tweaking my website instead. Even this time, I had this huge mental block of redesigning my website first instead of writing this post.  
