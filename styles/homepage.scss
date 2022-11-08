@@ -1,3 +1,5 @@
+@import 'global';
+
 /* inter-regular - latin */
 @font-face {
   font-family: 'Inter';
@@ -7,8 +9,6 @@
   src: local(''), url('../assets/fonts/inter-v3-latin-regular.woff2') format('woff2'),
     /* Chrome 26+, Opera 23+, Firefox 39+ */ url('../assets/fonts/inter-v3-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
-@import 'global';
 
 .homepage-container {
   min-height: 90vh;
@@ -27,9 +27,11 @@ header {
   display: flex;
   flex-direction: row;
   flex: 1;
+
   main {
     margin-top: 32px;
     flex: 1;
+
     .about-me {
       font-size: 24px;
       width: 40ch;
@@ -39,15 +41,18 @@ header {
   nav {
     display: flex;
     flex-direction: column;
+
     .nav-item {
       font-weight: bold;
       font-size: 30px;
       text-align: center;
       text-decoration: none;
+
       &:hover {
         text-decoration: underline;
       }
     }
+
     & > * + * {
       margin-top: 18px;
     }
@@ -59,33 +64,40 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: baseline;
+
   .links {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 35ch;
+
     .link {
       .twitter-logo:hover {
         color: $twitter-hover-color;
         fill: $twitter-hover-color;
       }
+
       .email-logo:hover {
         color: $email-hover-color;
       }
+
       .rss-logo:hover {
         color: $rss-hover-color;
       }
+
       .github-logo:hover {
         color: $github-hover-color;
         fill: $github-hover-fill-color;
       }
     }
   }
+
   .collections-link {
     font-weight: bold;
     font-size: 30px;
     text-align: center;
     text-decoration: none;
+
     &:hover {
       text-decoration: underline;
     }
@@ -93,10 +105,11 @@ footer {
 
   .lands-upon {
     background-image: linear-gradient(to left, violet, indigo, blue, green, #4c4c06, orange, red);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 8px;
     border-radius: 3px;
+
     &:hover {
       transform: scale(1.5);
       transition: transform 0.2s ease-in-out;
@@ -118,24 +131,29 @@ footer {
 @media (max-width: $breakpoint-sm) {
   .homepage-container {
     align-items: center;
+
     header {
       .name {
         font-size: 48px;
       }
     }
+
     .content-container {
       display: flex;
       flex-direction: column-reverse;
+
       nav {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+
         .nav-item {
           margin-top: 0;
           font-size: 28px;
         }
       }
     }
+
     footer {
       flex-direction: column;
       align-items: center;

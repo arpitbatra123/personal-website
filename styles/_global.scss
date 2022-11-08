@@ -3,7 +3,8 @@
 @import 'utilities';
 
 a {
-  color: currentColor;
+  color: currentcolor;
+
   &:hover {
     color: $link-hover-color;
     text-decoration: underline;

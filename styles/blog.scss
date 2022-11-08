@@ -1,14 +1,14 @@
+@import 'global';
+
 /* inter-regular - latin */
 @font-face {
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local(""), url("../assets/fonts/inter-v3-latin-regular.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */ url("../assets/fonts/inter-v3-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local(''), url('../assets/fonts/inter-v3-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */ url('../assets/fonts/inter-v3-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
-@import 'global';
 
 .blog-container {
   min-height: 90vh;
@@ -31,20 +31,24 @@ header {
 
   main {
     flex: 1;
+
     .posts {
       width: 60ch;
+
       .post {
         &-date {
           font-size: 12px;
           line-height: 20px;
-          color: rgba(0, 0, 0, 0.65);
+          color: rgb(0 0 0 / 65%);
         }
 
         &-title {
           font-size: 32px;
           line-height: 39px;
+
           a {
             text-decoration: none;
+
             &:hover {
               text-decoration: underline;
             }
@@ -57,15 +61,18 @@ header {
   nav {
     display: flex;
     flex-direction: column;
+
     .nav-item {
       font-weight: bold;
       font-size: 30px;
       text-align: center;
       text-decoration: none;
+
       &:hover {
         text-decoration: underline;
       }
     }
+
     & > * + * {
       margin-top: 18px;
     }
@@ -74,6 +81,7 @@ header {
 
 footer {
   align-self: flex-end;
+
   // Stick to bottom
   position: fixed;
   bottom: 2rem;
@@ -89,12 +97,15 @@ footer {
         color: $twitter-hover-color;
         fill: $twitter-hover-color;
       }
+
       .email-logo:hover {
         color: $email-hover-color;
       }
+
       .rss-logo:hover {
         color: $rss-hover-color;
       }
+
       .github-logo:hover {
         color: $github-hover-color;
         fill: $github-hover-fill-color;
@@ -106,25 +117,31 @@ footer {
 @media (max-width: $breakpoint-md) {
   header {
     text-align: center;
+
     .title {
       font-size: 48px;
     }
   }
+
   .content-container {
     flex-direction: column-reverse;
     align-items: center;
     margin-top: 0;
+
     main {
       margin-top: 2em;
+
       .posts {
         width: 80vw;
       }
     }
+
     nav {
       position: unset;
       width: 80vw;
       flex-direction: row;
       justify-content: space-between;
+
       .nav-item {
         margin-top: 0;
         font-size: 28px;

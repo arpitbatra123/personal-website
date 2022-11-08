@@ -1,15 +1,15 @@
+@import 'global';
+@import 'prism-theme';
+
 /* inter-regular - latin */
 @font-face {
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local(""), url("../assets/fonts/inter-v3-latin-regular.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */ url("../assets/fonts/inter-v3-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local(''), url('../assets/fonts/inter-v3-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */ url('../assets/fonts/inter-v3-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
-@import 'global';
-@import 'prism-theme';
 
 ul {
   list-style-type: circle;
@@ -23,18 +23,22 @@ ul {
 
 header {
   font-weight: bold;
+
   .name {
     font-size: 64px;
     line-height: 78px;
+
     a {
       text-decoration: none;
     }
   }
+
   .post-title {
     font-size: 40px;
     line-height: 49px;
     margin-top: 34px;
   }
+
   .post-date {
     font-weight: 300;
     line-height: 24px;
@@ -56,15 +60,18 @@ header {
   nav {
     display: flex;
     flex-direction: column;
+
     .nav-item {
       font-weight: bold;
       font-size: 30px;
       text-align: center;
       text-decoration: none;
+
       &:hover {
         text-decoration: underline;
       }
     }
+
     & > * + * {
       margin-top: 18px;
     }
@@ -77,7 +84,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin: 100px 0 32px 0;
+  margin: 100px 0 32px;
 
   .links {
     display: flex;
@@ -90,12 +97,15 @@ footer {
         color: $twitter-hover-color;
         fill: $twitter-hover-color;
       }
+
       .email-logo:hover {
         color: $email-hover-color;
       }
+
       .rss-logo:hover {
         color: $rss-hover-color;
       }
+
       .github-logo:hover {
         color: $github-hover-color;
         fill: $github-hover-fill-color;
@@ -115,6 +125,7 @@ footer {
       display: none;
     }
   }
+
   footer {
     flex-direction: column;
     height: 100px;
