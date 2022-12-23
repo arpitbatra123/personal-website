@@ -78,6 +78,7 @@ header {
       font-weight: 300;
       color: #425043;
       word-break: break-word;
+      text-align: center;
     }
   }
 }
@@ -95,7 +96,6 @@ main {
       font-size: 3.5rem;
       line-height: 3.5rem;
       font-weight: bold;
-      // color: #4f5e6c;
     }
     &-description {
       color: #506070;
@@ -114,6 +114,7 @@ main {
     &-header {
       padding-bottom: 2rem;
       border-bottom: 1px solid #9fb6cc;
+      padding: 1em;
     }
 
     &-content {
@@ -126,6 +127,11 @@ main {
 
       gap: 2rem;
       padding: 1em;
+
+      @media (max-width: $breakpoint-sm) {
+        padding: 1em 0;
+      }
+
       .card {
         display: flex;
         flex-direction: row;
@@ -152,9 +158,7 @@ main {
   .books {
     background-color: #bdefd7;
     margin-top: -12em;
-    // Generated and adjusted via - https://9elements.github.io/fancy-border-radius/full-control.html
-    // border-radius: 166% 47% 10% 10% / 24% 22% 0% 0%;
-    padding-top: 9em;
+    padding-top: 4em;
     .cards-content {
       grid-template-columns: 1fr;
     }
@@ -170,9 +174,7 @@ main {
   .shows {
     background-color: #efbdbd;
     margin-top: -18em;
-    // Generated and adjusted via - https://9elements.github.io/fancy-border-radius/full-control.html
-    // border-radius: 89% 52% 10% 10% / 12% 53% 0% 0%;
-    padding-top: 9em;
+    padding-top: 4em;
     .cards-content {
       grid-template-columns: 1fr 1fr;
       @media (max-width: $breakpoint-sm) {
@@ -186,9 +188,17 @@ main {
     background-color: #e67bc0;
     color: #11140e;
     margin-top: -18em;
-    // Generated and adjusted via - https://9elements.github.io/fancy-border-radius/full-control.html
-    // border-radius: 166% 47% 10% 10% / 24% 22% 0% 0%;
-    padding-top: 9em;
+    padding-top: 4em;
+    .songs {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      @media (max-width: $breakpoint-md) {
+        grid-template-columns: 1fr;
+        &-embed {
+          height: 320px;
+        }
+      }
+    }
     .cards-content {
       grid-template-columns: 1fr;
     }
@@ -199,14 +209,13 @@ main {
     background-color: #610eb4;
     color: #f5ff6b;
     margin-top: -18em;
-    // Generated and adjusted via - https://9elements.github.io/fancy-border-radius/full-control.html
-    // border-radius: 89% 52% 10px 10px/24% 26% 10px 10px;
-    padding-top: 9em;
+    padding-top: 4em;
     .cards-content {
       .cards-content {
         grid-template-columns: 1fr;
       }
     }
+    padding-bottom: 3rem;
   }
 }
 
