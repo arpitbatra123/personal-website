@@ -1,0 +1,218 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set core root defaults */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  text-rendering: optimizespeed;
+  line-height: 1.5;
+  background-color: #fff;
+  border-top: 1.5rem solid #cbc9c9;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+a {
+  color: currentcolor;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// Breakpoints
+$breakpoint-sm: '640px';
+$breakpoint-md: '768px';
+$breakpoint-lg: '1024px';
+$breakpoint-xl: '1280px';
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+header {
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  @media (max-width: $breakpoint-sm) {
+    margin-bottom: unset;
+    padding: 1rem;
+  }
+  .hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    &-title {
+      font-weight: 700;
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+
+      @media (max-width: $breakpoint-sm) {
+        align-items: flex-start;
+      }
+
+      .lead-text {
+        font-size: 2rem;
+      }
+
+      .tail-text {
+        font-size: 5rem;
+        line-height: 5rem;
+      }
+    }
+
+    &-description {
+      max-width: 64ch;
+      font-weight: 300;
+      color: #425043;
+      word-break: break-word;
+    }
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  .cards {
+    @media (max-width: $breakpoint-sm) {
+      border-radius: unset !important;
+    }
+    &-title {
+      font-size: 3.5rem;
+      line-height: 3.5rem;
+      font-weight: bold;
+      // color: #4f5e6c;
+    }
+    &-description {
+      color: #506070;
+      font-weight: 300;
+      font-size: 1.2rem;
+    }
+    background-color: #bfddf9;
+    border-radius: 8px;
+    width: 80vw;
+
+    @media (max-width: $breakpoint-md) {
+      width: 100vw;
+    }
+    padding: 1.5rem 1.5rem 0 1.5rem;
+
+    &-header {
+      padding-bottom: 2rem;
+      border-bottom: 1px solid #9fb6cc;
+    }
+
+    &-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+
+      @media (max-width: $breakpoint-lg) {
+        grid-template-columns: 1fr;
+      }
+
+      gap: 2rem;
+      padding: 1em;
+      .card {
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+        display: flex;
+        &-poster {
+          border-radius: 4px;
+          width: 150px;
+          height: fit-content;
+        }
+        &-content {
+          p {
+            font-style: italic;
+          }
+        }
+      }
+    }
+  }
+
+  .films {
+    padding-bottom: 15rem;
+  }
+
+  .books {
+    background-color: #bdefd7;
+    margin-top: -12em;
+    // Generated and adjusted via - https://9elements.github.io/fancy-border-radius/full-control.html
+    // border-radius: 166% 47% 10% 10% / 24% 22% 0% 0%;
+    padding-top: 9em;
+    .cards-content {
+      grid-template-columns: 1fr;
+    }
+    .card {
+      @media (max-width: $breakpoint-sm) {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+    padding-bottom: 20rem;
+  }
+
+  .shows {
+    background-color: #efbdbd;
+    margin-top: -18em;
+    // Generated and adjusted via - https://9elements.github.io/fancy-border-radius/full-control.html
+    // border-radius: 89% 52% 10% 10% / 12% 53% 0% 0%;
+    padding-top: 9em;
+    .cards-content {
+      grid-template-columns: 1fr 1fr;
+      @media (max-width: $breakpoint-sm) {
+        grid-template-columns: 1fr;
+      }
+    }
+    padding-bottom: 20rem;
+  }
+
+  .music-songs {
+    background-color: #e67bc0;
+    color: #11140e;
+    margin-top: -18em;
+    // Generated and adjusted via - https://9elements.github.io/fancy-border-radius/full-control.html
+    // border-radius: 166% 47% 10% 10% / 24% 22% 0% 0%;
+    padding-top: 9em;
+    .cards-content {
+      grid-template-columns: 1fr;
+    }
+    padding-bottom: 20rem;
+  }
+
+  .music-artists {
+    background-color: #610eb4;
+    color: #f5ff6b;
+    margin-top: -18em;
+    // Generated and adjusted via - https://9elements.github.io/fancy-border-radius/full-control.html
+    // border-radius: 89% 52% 10px 10px/24% 26% 10px 10px;
+    padding-top: 9em;
+    .cards-content {
+      .cards-content {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+}
+
+footer {
+  background-color: #cbc9c9;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+}
