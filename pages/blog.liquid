@@ -9,7 +9,11 @@ permalink: blog/index.html
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ siteMeta.author.name }}" />
+    <link
+    rel="alternate"
+      href="/feed.xml"
+      type="application/atom+xml"
+      title="{{ siteMeta.author.name }}" />
 
     <!-- Primary Meta Tags -->
     <title>{{ siteMeta.author.name }}'s blog</title>
@@ -46,27 +50,33 @@ permalink: blog/index.html
           <article class="flow | body-font | about-me">
             <ul class="flow | posts">
               {% for post in collections.posts reversed %}
-              <li class="post">
-                {% if post.data.meta.hindiTitle %}
-                <span class="heading-font | post-title">
-                  <a href="{{ post.url }}">{{ post.data.title }}</a>
-                </span>
-                {% else %}
-                <span class="lowercase | heading-font | post-title">
-                  <a href="{{ post.url }}">{{ post.data.title }}</a>
-                </span>
-                {% endif %}
-                <div class="lowercase | post-date">
-                  {{ post.date | date: '%b %Y' }}
-                </div>
-              </li>
+                <li class="post">
+                  {% if post.data.meta.hindiTitle %}
+                    <span class="heading-font | post-title">
+                      <a href="{{ post.url }}">{{ post.data.title }}</a>
+                    </span>
+                  {% else %}
+                    {% if post.data.externalLink %}
+                      <span class="lowercase | heading-font | post-title">
+                        <a href="{{ post.data.externalLink }}">{{ post.data.title }}</a>
+                      </span>
+                    {% else %}
+                      <span class="lowercase | heading-font | post-title">
+                        <a href="{{ post.url }}">{{ post.data.title }}</a>
+                      </span>
+                    {% endif %}
+                  {% endif %}
+                  <div class="lowercase | post-date">
+                    {{ post.date | date: '%b %Y' }}
+                  </div>
+                </li>
               {% endfor %}
             </ul>
           </article>
         </main>
         <nav>
           {% for item in siteMeta.navbarDataBlog %}
-          <a href="{{ item.url }}" class="heading-font | nav-item">{{ item.text }}</a>
+            <a href="{{ item.url }}" class="heading-font | nav-item">{{ item.text }}</a>
           {% endfor %}
         </nav>
       </div>
