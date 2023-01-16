@@ -25,10 +25,7 @@ body {
 
 a {
   color: currentcolor;
-  text-decoration: none;
-  &:hover {
-    text-decoration: underline;
-  }
+  text-decoration: underline;
 }
 
 // Breakpoints
