@@ -137,7 +137,8 @@ main {
         &-poster {
           border-radius: 4px;
           width: 150px;
-          height: fit-content;
+          height: auto;
+          max-height: 230px;
         }
         &-content {
           p {
