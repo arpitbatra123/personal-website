@@ -104,11 +104,9 @@ footer {
   }
 
   .lands-upon {
-    background-image: linear-gradient(to left, violet, indigo, blue, green, #4c4c06, orange, red);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
     padding: 8px;
     border-radius: 3px;
+    color: orange;
 
     &:hover {
       transform: scale(1.5);
