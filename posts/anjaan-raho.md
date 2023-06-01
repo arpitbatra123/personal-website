@@ -1,13 +1,13 @@
 ---
 title: मंज़िल
-date: 2018-12-27
+date: 2018-12-27 00:00:00 Z
 meta:
   hindiTitle: false
   hindiBody: true
 tags:
 - poetry
-
 ---
+
 अनजान राहों पर चले जा रहे हैं,
 और मंज़िल का पता नहीं
 जीवन-भर के वादे कर बैठे हैं

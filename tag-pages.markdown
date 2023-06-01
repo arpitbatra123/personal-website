@@ -1,14 +1,14 @@
 ---
+permalink: "/tags/{{ tag }}/"
 pagination:
   data: collections
   size: 1
   alias: tag
   filter:
-    - posts
-layout: tagged-posts.liquid    
+  - posts
+layout: tagged-posts.liquid
 renderData:
   title: posts tagged under "{{ tag }}"
-permalink: /tags/{{ tag }}/
 ---
 
 <ol class="posts">

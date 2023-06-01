@@ -1,6 +1,6 @@
 ---
 title: A morning in delhi
-date: 2022-03-03
+date: 2022-03-03 00:00:00 Z
 tags: []
 ---
 

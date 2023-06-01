@@ -1,12 +1,12 @@
 ---
 title: The importance of web accessibility
-date: 2020-10-09T00:00:00.000+05:30
+date: 2020-10-08 18:30:00 Z
 tags:
 - a11y
 - accessibility
 - web
-
 ---
+
 I believe the "web" is one of the most important inventions of humankind. We take being connected to the world 24x7 for granted now, but it's the web that has empowered us to achieve this feat. But, while we are empowering the world through the web, some people are still being left out because our web interfaces are not accessible.
 
 Let me explain by telling you a personal anecdote.

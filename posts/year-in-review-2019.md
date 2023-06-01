@@ -1,11 +1,11 @@
 ---
 title: Year in review 2019
-date: 2019-12-31
+date: 2019-12-31 00:00:00 Z
 tags:
 - prose
 - journal
-
 ---
+
 The year 2019 is almost nearing to the end. I've seen a lot of people do these sort of reviews of their year and so I've decided to do this as well as it serves two purposes - It lets you reflect where you stand on the path towards accomplishing the goals you've set for yourself and also will serve as a memory of sorts so It's something you can look back to.
 
 Now, I don't keep a journal of any sort so I'll be having trouble remembering what all stuff happened this year but I'll try my best. I'll do this in a list format. Please note that this list is not in chronological order.

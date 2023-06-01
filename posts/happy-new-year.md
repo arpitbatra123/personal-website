@@ -1,9 +1,9 @@
 ---
 title: Happy New Year 2019
-date: '2019-12-31'
+date: 2019-12-31 00:00:00 Z
 tags:
-  - 'prose'
-  - 'journal'
+- prose
+- journal
 ---
 
 _31st December 2019 11:36 PM_

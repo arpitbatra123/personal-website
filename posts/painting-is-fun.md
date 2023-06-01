@@ -1,10 +1,10 @@
 ---
 title: Painting is fun
-date: '2020-08-21'
+date: 2020-08-21 00:00:00 Z
 updatedAt: '2020-08-21'
 tags:
-  - 'drawing'
-  - 'fun'
+- drawing
+- fun
 ---
 
 After trying out [sketching](/posts/i-drew-totoro/) earlier, I was looking for something else to try so I tried to dabble my hand at watercolor painting.

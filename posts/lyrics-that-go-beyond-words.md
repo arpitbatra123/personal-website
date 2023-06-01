@@ -1,12 +1,12 @@
 ---
 title: Lyrics That Go Beyond Words
-date: '2019-12-08'
+date: 2019-12-08 00:00:00 Z
 updatedAt: '2020-05-10'
 meta:
   hindiBody: false
   hindiTitle: false
 tags:
-  - 'collections'
+- collections
 ---
 
 > tl:dr
