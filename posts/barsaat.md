@@ -1,10 +1,10 @@
 ---
 title: बरसात
-date: '2019-10-02'
+date: 2019-10-02 00:00:00 Z
 meta:
   hindiTitle: false
 tags:
-  - 'poetry'
+- poetry
 ---
 
 {{ 'rainy-road.jpg' | markdownImage }}

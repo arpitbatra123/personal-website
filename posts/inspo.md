@@ -1,8 +1,8 @@
 ---
 title: Inspo(ration)
-date: '2019-12-07'
+date: 2019-12-07 00:00:00 Z
 tags:
-  - 'collections'
+- collections
 ---
 
 Inspired by [torvim's](https://torvim.github.io/) big ass inspo zip, [here's](https://inspo-arpit.vercel.app/) my small ass inspo collection.

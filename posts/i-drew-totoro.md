@@ -1,9 +1,9 @@
 ---
 title: I Drew Totoro
-date: '2020-04-11'
+date: 2020-04-11 00:00:00 Z
 tags:
-  - 'drawing'
-  - 'fun'
+- drawing
+- fun
 ---
 
 <figure>

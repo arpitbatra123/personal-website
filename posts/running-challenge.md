@@ -1,10 +1,10 @@
 ---
 title: 30 days of running
-date: 2018-02-17
+date: 2018-02-17 00:00:00 Z
 tags:
 - journal
-
 ---
+
 {{ 'running-challenge.jpeg' | markdownImage }}
 
 A month of 2018 had passed. It was the first day of February. January had passed like a bullet train. That is the thing about time, you think you have control over it, that you'll remember moments as they pass but always remember, that life will pass right in front of your eyes and you wouldn't have a clue.

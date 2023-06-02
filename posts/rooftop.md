@@ -1,10 +1,10 @@
 ---
 title: Rooftop
-date: 2020-09-12T00:00:00+05:30
+date: 2020-09-11 18:30:00 Z
 tags:
 - poetry
-
 ---
+
 here i stand, on the moonlit rooftop 
 watching the clouds pass me by
 

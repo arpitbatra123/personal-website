@@ -1,10 +1,10 @@
 ---
 title: Steal Like An Artist by Austin Kleon - review and highlights
-date: 2020-10-08T15:00:00+05:30
+date: 2020-10-08 09:30:00 Z
 tags:
 - book-review
-
 ---
+
 ## Review:
 
 A short, good book on how to do creative work.

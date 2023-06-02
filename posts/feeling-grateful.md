@@ -1,9 +1,9 @@
 ---
 title: Feeling Grateful
-date: '2019-05-26'
+date: 2019-05-26 00:00:00 Z
 tags:
-  - 'prose'
-  - 'journal'
+- prose
+- journal
 ---
 
 I very recently switched jobs. I did it because I wanted to explore different technologies and also wanted a better salary. Now, settling into a new workplace is never easy. I’ve struggled with numerous issues including finding a new place to live and adjusting to living alone, trying to make new friends and above all trying to learn new technologies needed for my job.

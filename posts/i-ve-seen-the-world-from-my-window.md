@@ -1,10 +1,10 @@
 ---
 title: I’ve seen the world from my window
-date: 2021-03-11T21:00:00+05:30
+date: 2021-03-11 15:30:00 Z
 tags:
 - poems
-
 ---
+
 ![The window of my messy room](/assets/window.JPG "Window")  
   
 i’ve seen the world from my window

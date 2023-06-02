@@ -1,9 +1,9 @@
 ---
 title: 'Where are we coming from? Where will we go? '
-date: 2021-02-08T22:06:00+05:30
+date: 2021-02-08 16:36:00 Z
 tags: []
-
 ---
+
 I've often been obsessed with leaving a legacy behind me. I've never really thought why I want this and I've also been told that since we're just a speck of dust in the universe, leaving a legacy does not matter anyway.
 
 Those who love us will remember us.  

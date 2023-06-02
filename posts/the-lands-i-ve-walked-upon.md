@@ -1,8 +1,7 @@
 ---
 title: the lands i've walked upon
-date: 2021-09-07T00:00:00+05:30
+date: 2021-09-06 18:30:00 Z
 tags: []
-
 ---
 
 [https://lands-upon.netlify.app/](https://lands-upon.netlify.app/ "https://lands-upon.netlify.app/")

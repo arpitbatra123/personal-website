@@ -1,9 +1,9 @@
 ---
 title: Impending Emotional Turmoil
-date: '2020-06-06'
+date: 2020-06-06 00:00:00 Z
 tags:
-  - 'prose'
-  - 'self-reflection'
+- prose
+- self-reflection
 ---
 
 impending emotional turmoil is somewhat like the first drop of the oncoming rain.

@@ -1,11 +1,11 @@
 ---
 title: Ghosts of the fallen past
-date: 2021-01-10T21:48:00.000+05:30
+date: 2021-01-10 16:18:00 Z
 tags:
 - life
 - stories
-
 ---
+
 I went on a trip to Mussoorie today.  Mussorie has a very old heritage especially because it was a winter haven for Englishmen who served in the British army. There’s not a lot of British heritage left at first sight, but thanks to a youtube [video](https://www.youtube.com/watch?v=1COOFaxDK2M) I was watching to figure out my itinerary for the day, I discovered that there is an old British military cemetery there.
 
 Being the history buff I am, I instantly wanted to visit it.

@@ -1,10 +1,10 @@
 ---
 title: I made a browser extension called mnml new tab
-date: 2020-04-25
+date: 2020-04-25 00:00:00 Z
 tags:
 - coding
-
 ---
+
 If you've seen my blog post titled [inspo](/posts/inspo), you already know how impressed I am by [torvim's](https://torvim.github.io/) [inspo](https://u.teknik.io/E32bU.zip) collection.
 
 One day, while randomly browsing images in this collection, I came across the following image:

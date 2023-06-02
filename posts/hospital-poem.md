@@ -1,10 +1,10 @@
 ---
 title: A Hospital is a strange place
-date: 2019-09-23
+date: 2019-09-23 00:00:00 Z
 tags:
 - poetry
-
 ---
+
 a hospital is a strange place,
 the epitome of human suffering.
 corridors as busy as a bazaar,

@@ -1,11 +1,11 @@
 ---
 title: Wisdom tooth extraction
-date: 2022-08-23T21:00:00+05:30
+date: 2022-08-23 15:30:00 Z
 tags:
 - lifelog
 - personal
-
 ---
+
 I got my right wisdom tooth extracted today. I was lying on the dentist's chair while the dentist and her assistant operated on me with dangerous-looking tools, and  I was trying to distract myself by thinking all kinds of thoughts.  
 Following one such train of thought, I decided to write about my experience.
 

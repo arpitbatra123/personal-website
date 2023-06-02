@@ -1,10 +1,10 @@
 ---
 title: The Year Without Pants by Scott Berkun - review and highlights
-date: 2020-08-29
+date: 2020-08-29 00:00:00 Z
 tags:
 - book-review
-
 ---
+
 ## Review
 
 This is a very interesting book, and you feel like you're a part of the story the author is narrating. I am intrigued about the idea of remote work for a very long time, and if remote work is executed like Automattic has been doing in the last decade, it really can become the future of work.
