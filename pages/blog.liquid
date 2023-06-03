@@ -43,7 +43,7 @@ permalink: blog/index.html
   <body>
     <div class="page-wrapper | blog-container">
       <header>
-        <h1 class="lowercase | heading-font | title">arpit's blog</h1>
+        <h1 class=" | heading-font | title">Arpit's Blog</h1>
       </header>
       <div class="content-container">
         <main>
@@ -57,16 +57,16 @@ permalink: blog/index.html
                     </span>
                   {% else %}
                     {% if post.data.externalLink %}
-                      <span class="lowercase | heading-font | post-title">
+                      <span class=" | heading-font | post-title">
                         <a href="{{ post.data.externalLink }}">{{ post.data.title }}</a>
                       </span>
                     {% else %}
-                      <span class="lowercase | heading-font | post-title">
+                      <span class=" | heading-font | post-title">
                         <a href="{{ post.url }}">{{ post.data.title }}</a>
                       </span>
                     {% endif %}
                   {% endif %}
-                  <div class="lowercase | post-date">
+                  <div class=" | post-date">
                     {{ post.date | date: '%b %Y' }}
                   </div>
                 </li>
