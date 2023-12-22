@@ -35,16 +35,11 @@ permalink: blog/index.html
     <meta property="twitter:image" content="{{ siteMeta.url }}/assets/images/profile.png" />
 
     <link rel="stylesheet" href="../styles/blog.css" />
-
-    <!-- Analytics -->
-    <script async src="https://cdn.splitbee.io/sb.js"></script>
   </head>
 
   <body>
     <div class="page-wrapper | blog-container">
-      <header>
-        <h1 class=" | heading-font | title">Arpit's Blog</h1>
-      </header>
+      {% include 'header-blog' %}
       <div class="content-container">
         <main>
           <article class="flow | body-font | about-me">
@@ -74,11 +69,6 @@ permalink: blog/index.html
             </ul>
           </article>
         </main>
-        <nav>
-          {% for item in siteMeta.navbarDataBlog %}
-            <a href="{{ item.url }}" class="heading-font | nav-item">{{ item.text }}</a>
-          {% endfor %}
-        </nav>
       </div>
       <footer>{% include 'social-links' %}</footer>
     </div>

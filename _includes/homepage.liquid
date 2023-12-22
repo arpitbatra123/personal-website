@@ -35,47 +35,19 @@
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="./styles/homepage.css" />
-
-    <!-- Analytics -->
-    <script async src="https://cdn.splitbee.io/sb.js"></script>
   </head>
 
   <body>
     <div class="page-wrapper | homepage-container">
-      <header>
-        <h1 class=" | heading-font | name">{{ siteMeta.author.name }}</h1>
-      </header>
+      {% include 'header' %}
       <div class="content-container">
         <main>
-          <article class="flow | body-font | about-me">
+          <article class="body-font | about-me">
             {{ content }}
           </article>
         </main>
-        <nav>
-          {% for item in siteMeta.navbarData %}
-          <a href="{{ item.url }}" class="heading-font | nav-item">{{ item.text }}</a>
-          {% endfor %}
-        </nav>
       </div>
-      <footer>
-        {% include 'social-links' %}
-        <a
-          href="https://lands-upon.netlify.app/"
-          class="heading-font | collections-link | lands-upon"
-          target="_blank"
-          rel="noopener"
-        >
-          lands upon
-        </a>
-        <a
-          href="https://inspo-arpit.vercel.app/"
-          class="heading-font | collections-link"
-          target="_blank"
-          rel="noopener"
-        >
-          inspo
-        </a>
-      </footer>
+      {% include 'footer' %}
     </div>
   </body>
 </html>

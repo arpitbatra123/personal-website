@@ -1,0 +1,56 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  .name {
+    font-size: 2rem;
+    font-weight: unset;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+
+    .nav-item {
+      font-size: 1.5rem;
+      text-align: center;
+      text-decoration: none;
+
+      &::after {
+        content: ',';
+      }
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+  
+    .collections-link {
+      font-weight: bold;
+      font-size: 30px;
+      text-align: center;
+      text-decoration: none;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  
+    .lands-upon {
+      padding: 8px;
+      border-radius: 3px;
+      color: orange;
+  
+      &:hover {
+      }
+    }
+  }

@@ -1,0 +1,8 @@
+<header>
+  <h1 class="body-font | name">{{ siteMeta.author.name }}</h1>
+  <nav>
+    {% for item in siteMeta.navbarData %}
+    <a href="{{ item.url }}" class="heading-font | nav-item">{{ item.text }}</a>
+    {% endfor %}
+  </nav>
+</header>

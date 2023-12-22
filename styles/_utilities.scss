@@ -1,14 +1,14 @@
-
 // https://alistapart.com/article/axiomatic-css-and-lobotomized-owls/
 .flow > * + * {
   margin-top: 1.5em;
 }
 
 .page-wrapper {
-  margin: 2rem;
+  border: 1.0875rem solid rgb(197, 72, 77);
+  padding: 2rem;
+  min-height: 100vh;
   @media (max-width: $breakpoint-sm) {
-    margin: 2rem 1rem;
-    margin-bottom: 0;
+    padding: 1rem;
   }
 }
 

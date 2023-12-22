@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>{{ title }}</title>
 
-    <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ siteMeta.author.name }}" />
+    <link rel="alternate"
+      href="/feed.xml"
+      type="application/atom+xml"
+      title="{{ siteMeta.author.name }}" />
 
     <!-- Primary Meta Tags -->
     <meta name="title" content="{{ title }}" />
@@ -26,14 +29,15 @@
 
     <link rel="stylesheet" href="../../styles/blogpost.css" />
 
-    <!-- Analytics -->
-    <script async src="https://cdn.splitbee.io/sb.js"></script>
+
   </head>
 
   <body>
     <div class="page-wrapper | blogpost-container">
       <header>
-        <h1 class=" | heading-font | name"><a href='/'>{{ siteMeta.author.name }}</a></h1>
+        <h1 class=" | heading-font | name">
+          <a href='/'>{{ siteMeta.author.name }}</a>
+        </h1>
         <h1 class=" | heading-font | post-title">{{ title }}</h1>
         <span class="heading-font | post-date">{{ date | date: '%b %d %Y' }}</span>
       </header>
@@ -45,12 +49,13 @@
         </main>
         <nav>
           {% for item in siteMeta.navbarDataBlog %}
-          <a href="{{ item.url }}" class="heading-font | nav-item">{{ item.text }}</a>
+            <a href="{{ item.url }}" class="heading-font | nav-item">{{ item.text }}</a>
           {% endfor %}
         </nav>
       </div>
       <footer>
-        <a class="body-font | home-link" href="/"> ← Go Home</a>
+        <a class="body-font | home-link" href="/">
+          ← Go Home</a>
         {% include 'social-links' %}
       </footer>
     </div>
