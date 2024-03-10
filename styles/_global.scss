@@ -48,3 +48,45 @@ code:not([class*='language-']) {
   width: 1px;
   white-space: nowrap;
 }
+
+.borders {
+  display: flex;
+  width: 100vw;
+  div {
+    height: 30px;
+    width: 40px;
+  }
+  position: absolute;
+  top: 0;
+
+  @media (max-width: $breakpoint-sm) {
+    top: unset;
+    bottom: 0;
+  }
+}
+
+.blue {
+  background: #488ad9;
+}
+.green {
+  background: #81c54e;
+}
+.yellow {
+  background: #ffb325;
+}
+.orange {
+  background: #fd7908;
+}
+.red {
+  background: #f11017;
+}
+.fullblue {
+  background: #488ad9;
+  flex: 1;
+  color: white;
+  text-align: right;
+  padding-right: 16px;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
